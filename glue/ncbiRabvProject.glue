@@ -1,0 +1,13 @@
+schema-project rabv
+
+  run file glue/ncbiRabvSchemaExtensions.glue
+  
+  exit
+
+project rabv
+
+  run file glue/ncbiRabvModules.glue
+  
+  module rabvGenbankXmlPopulator populate -w "source.name = 'ncbi-curated'"
+  
+  exit

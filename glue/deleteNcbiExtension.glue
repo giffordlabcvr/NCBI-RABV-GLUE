@@ -1,0 +1,13 @@
+schema-project rabv
+  table sequence
+    delete field ncbi_incoming
+    exit
+  exit
+
+project rabv
+  delete source ncbi-curated
+  delete module -w "name like 'ncbiRabv%'"
+  exit
+  
+  
+  
