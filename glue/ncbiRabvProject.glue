@@ -9,5 +9,14 @@ project rabv
   run file glue/ncbiRabvModules.glue
   
   module rabvGenbankXmlPopulator populate -w "source.name = 'ncbi-curated'"
+
+  # update collection year bounds
+  module rabvCollectionBoundsPopulator populate -w "source.name = 'ncbi-curated'"
+  
+  module ncbiRabvUpdateCuratedSequences invoke-function genotypeCurated
+  
+  module rabvFeaturePresenceRecorder 
+    record feature-presence AL_MASTER --recursive --whereClause "sequence.source.name = 'ncbi-curated'" --featureName whole_genome --descendentFeatures
+    exit
   
   exit

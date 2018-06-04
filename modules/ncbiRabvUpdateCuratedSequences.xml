@@ -3,11 +3,22 @@
   <function>
     <name>syncCurated</name>
   </function>
+  <function>
+    <name>placeCuratedIncoming</name>
+  </function>
+  <function>
+    <name>placeCuratedAll</name>
+  </function>
+  <function>
+    <name>genotypeCurated</name>
+  </function>
   <configDocument name="project">
     <name>rabv</name>
   </configDocument>
   <configDocument name="modules">
     <ncbiImporter>ncbiRabvCuratedNcbiImporter</ncbiImporter>
+    <genotyper>rabvMaxLikelihoodGenotyper</genotyper>
+    <placer>rabvMaxLikelihoodPlacer</placer>
   </configDocument>
   <configDocument name="source">
     <name>ncbi-curated</name>
