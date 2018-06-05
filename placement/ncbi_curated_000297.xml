@@ -1,0 +1,835 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<maxLikelihoodPlacerResult>
+    <labelledPhyloTree glueType="String">(((((((((alignment/AL_Cosmopolitan_AM4/member/ncbi-refseqs/JQ685894:0.03843291336156965526{0},alignment/AL_Cosmopolitan_AM4/member/ncbi-refseqs/JQ685970:0.04179648554514609621{1}):0.02813289177564815349{2},(((alignment/AL_Cosmopolitan_AM3a/member/ncbi-refseqs/AB517659:0.02269241940657630921{3},alignment/AL_Cosmopolitan_AM3a/member/ncbi-refseqs/KX148216:0.01593183943431304012{4}):0.01621097035791835284{5},((alignment/AL_Cosmopolitan_AM3b/member/ncbi-refseqs/AB517660:0.03739006755413932376{6},alignment/AL_Cosmopolitan_AM3b/member/ncbi-refseqs/KX148217:0.01831211485878633458{7}):0.01329508181455195392{8},alignment/AL_Cosmopolitan_AM3b/member/ncbi-refseqs/AF369315:0.03436786336132659908{9}):0.00144591692201794853{10}):0.02152572859218099613{11},((((alignment/AL_Cosmopolitan_AM2b/member/ncbi-refseqs/JQ685899:0.01422529463999538946{12},alignment/AL_Cosmopolitan_AM2b/member/ncbi-refseqs/JQ685943:0.01355583396486395933{13}):0.04147930182176130104{14},alignment/AL_Cosmopolitan_Vac2/member/ncbi-refseqs/JQ685975:0.04762636578536705301{15}):0.00399600482238761379{16},((alignment/AL_Cosmopolitan_AM2a/member/ncbi-refseqs/HQ450386:0.02100913769252568328{17},alignment/AL_Cosmopolitan_AM2a/member/ncbi-refseqs/KX148102:0.02015776155863215416{18}):0.00445688135124383458{19},alignment/AL_Cosmopolitan_AM2a/member/ncbi-refseqs/KX148112:0.02432220829465546463{20}):0.01546725962741386969{21}):0.01577315359014577062{22},((((((alignment/AL_Cosmopolitan_AF1a/member/ncbi-refseqs/KX148194:0.00900585467312380733{23},alignment/AL_Cosmopolitan_AF1a/member/ncbi-refseqs/KX148197:0.01454763741883954506{24}):0.01121230101981683484{25},(alignment/AL_Cosmopolitan_AF1a/member/ncbi-refseqs/AF325466:0.02087172646440060148{26},((alignment/AL_Cosmopolitan_AF1a/member/ncbi-refseqs/KX148200:0.00983657102557488477{27},alignment/AL_Cosmopolitan_AF1a/member/ncbi-refseqs/KX148198:0.01599887703052864721{28}):0.01265319728622246037{29},alignment/AL_Cosmopolitan_AF1a/member/ncbi-refseqs/AF369322:0.01432558225141901571{30}):0.00152003024546883050{31}):0.00176972244457442853{32}):0.00125907565627698622{33},(alignment/AL_Cosmopolitan_AF1a/member/ncbi-refseqs/KX148202:0.01733687629864832935{34},alignment/AL_Cosmopolitan_AF1a/member/ncbi-refseqs/KX148201:0.01551368446191854315{35}):0.01483355848711991054{36}):0.00389917694245085203{37},((alignment/AL_Cosmopolitan_AF1b/member/ncbi-refseqs/U22488:0.02297191451929627218{38},(((alignment/AL_Cosmopolitan_AF1b/member/ncbi-refseqs/KX148103:0.00990391580447287125{39},(alignment/AL_Cosmopolitan_AF1b/member/ncbi-refseqs/AF369297:0.01043994738485819196{40},(alignment/AL_Cosmopolitan_AF1b/member/ncbi-refseqs/KX148204:0.00771727721023685118{41},alignment/AL_Cosmopolitan_AF1b/member/ncbi-refseqs/JX473838:0.01317529231769190914{42}):0.00081673909171464079{43}):0.00122889817035596325{44}):0.00398122042164755600{45},(alignment/AL_Cosmopolitan_AF1b/member/ncbi-refseqs/KX148206:0.00916870302305322453{46},alignment/AL_Cosmopolitan_AF1b/member/ncbi-refseqs/KX148205:0.01017006018199525900{47}):0.00430000118856670253{48}):0.00656103087434917707{49},alignment/AL_Cosmopolitan_AF1b/member/ncbi-refseqs/KX148208:0.01870752843511135077{50}):0.00229346718834573613{51}):0.01146075548515991353{52},alignment/AL_Cosmopolitan_AF1c/member/ncbi-refseqs/KX148211:0.03803661036165982556{53}):0.00015794293731632037{54}):0.00458179512424513463{55},((alignment/AL_Cosmopolitan_YUGCOW/member/ncbi-refseqs/KX148104:0.03112336270207755745{56},(alignment/AL_Cosmopolitan_ME2/member/ncbi-refseqs/KX148162:0.02466879620853497379{57},((alignment/AL_Cosmopolitan_ME1b/member/ncbi-refseqs/KX148191:0.01805644457805903949{58},(alignment/AL_Cosmopolitan_ME1a/member/ncbi-refseqs/KX148190:0.00825312303059882145{59},(alignment/AL_Cosmopolitan_ME1a/member/ncbi-refseqs/KX148180:0.01219589493315154961{60},(alignment/AL_Cosmopolitan_ME1a/member/ncbi-refseqs/KX148186:0.00885571404284643537{61},alignment/AL_Cosmopolitan_ME1a/member/ncbi-refseqs/KX148168:0.01341574762054727893{62}):0.00002892430100459865{63}):0.00073322168110341861{64}):0.00442529203020103172{65}):0.01038359706887450468{66},(alignment/AL_Cosmopolitan_YUGFOX/member/ncbi-refseqs/KX148161:0.01999436951534185394{67},(((((alignment/AL_Cosmopolitan_NEE/member/ncbi-refseqs/KX148151:0.00833911067754011109{68},alignment/AL_Cosmopolitan_NEE/member/ncbi-refseqs/KX148150:0.00786536272337088303{69}):0.00068393267059952572{70},alignment/AL_Cosmopolitan_NEE/member/ncbi-refseqs/KX148156:0.01009411998026152162{71}):0.00536078408921016568{72},alignment/AL_Cosmopolitan_NEE/member/ncbi-refseqs/U43432:0.01817112470398469723{73}):0.01093806489199562575{74},((alignment/AL_Cosmopolitan_CE/member/ncbi-refseqs/KX148113:0.01411952612620399200{75},(alignment/AL_Cosmopolitan_WE/member/ncbi-refseqs/KX148135:0.00900593216167205890{76},(alignment/AL_Cosmopolitan_WE/member/ncbi-refseqs/EU293115:0.01023778862612839159{77},alignment/AL_Cosmopolitan_WE/member/ncbi-refseqs/KX148129:0.01150839520795621587{78}):0.00107162440660465833{79}):0.00412404126537728281{80}):0.00432709591330918651{81},(((alignment/AL_Cosmopolitan_EE/member/ncbi-refseqs/KX148140:0.00908449925199788892{82},alignment/AL_Cosmopolitan_EE/member/ncbi-refseqs/KX148141:0.00838652309922602486{83}):0.00160994926225861484{84},alignment/AL_Cosmopolitan_EE/member/ncbi-refseqs/KX148145:0.01250155004095782930{85}):0.00021482120469979940{86},alignment/AL_Cosmopolitan_EE/member/ncbi-refseqs/KX148143:0.00865885328932318628{87}):0.00725651512603691339{88}):0.00523110631226051531{89}):0.00141352077827574434{90},((alignment/AL_Cosmopolitan_CA1/member/ncbi-refseqs/KX148159:0.00675759669388449960{91},(alignment/AL_Cosmopolitan_CA1/member/ncbi-refseqs/KM016899:0.01603981394457837384{92},(alignment/AL_Cosmopolitan_CA1/member/ncbi-refseqs/AF369274:0.00969675911530921107{93},alignment/AL_Cosmopolitan_CA1/member/ncbi-refseqs/JQ944705:0.01263325493046276241{94}):0.00088962852708022468{95}):0.00027463030275935680{96}):0.01187473802376287114{97},(alignment/AL_Cosmopolitan_CA3/member/ncbi-refseqs/JQ944708:0.01800153414217285641{98},alignment/AL_Cosmopolitan_CA3/member/ncbi-refseqs/KX148160:0.01234722660194520136{99}):0.01142901020310197954{100}):0.00100466229096106137{101}):0.00097151109156981097{102}):0.00184628687521327267{103}):0.00038416822417561004{104}):0.00788671586309309079{105}):0.00172562370483665705{106},(alignment/AL_Cosmopolitan_CA2/member/ncbi-refseqs/KX148212:0.01160042563354921584{107},(alignment/AL_Cosmopolitan_CA2/member/ncbi-refseqs/KF155000:0.01054822191866571467{108},alignment/AL_Cosmopolitan_CA2/member/ncbi-refseqs/JQ944706:0.01060080857086852582{109}):0.00470208349016172731{110}):0.02203224333113486949{111}):0.00022833921939424635{112}):0.00569021351919801483{113},((alignment/AL_Cosmopolitan_AM1/member/ncbi-refseqs/JQ685987:0.02217249420941816429{114},(alignment/AL_Cosmopolitan_AM1/member/ncbi-refseqs/KX148213:0.01808787219431601950{115},(alignment/AL_Cosmopolitan_AM1/member/ncbi-refseqs/AB645847:0.01235360354275782079{116},alignment/AL_Cosmopolitan_AM1/member/ncbi-refseqs/JQ685944:0.01563515135469857251{117}):0.00465243967682590302{118}):0.00214688457941807770{119}):0.01935563902228788422{120},alignment/AL_Cosmopolitan_Vac/member/ncbi-refseqs/NC_001542:0.04863945514759866057{121}):0.00476026829134324099{122}):0.00843176336700867529{123}):0.00057320816730408505{124}):0.00017199665615508347{125}):0.00366137256837611265{126},alignment/AL_Cosmopolitan_AF4/member/ncbi-refseqs/KF154998:0.05241568509471360854{127}):0.02360347383368743487{128},(alignment/AL_Africa-3/member/ncbi-refseqs/KX148218:0.06197167388818596717{129},((alignment/AL_Africa-3/member/ncbi-refseqs/AF369301:0.03654351972526012626{130},((alignment/AL_Africa-3/member/ncbi-refseqs/AF467949:0.03408815107639422831{131},(alignment/AL_Africa-3/member/ncbi-refseqs/KX148220:0.02550716276641455324{132},alignment/AL_Africa-3/member/ncbi-refseqs/KX148222:0.02897940093969477229{133}):0.01598843650218071191{134}):0.00000100000050002909{135},alignment/AL_Africa-3/member/ncbi-refseqs/AF325485:0.04818016134692614666{136}):0.00266357330711222565{137}):0.01565429354398237966{138},alignment/AL_Africa-3/member/ncbi-refseqs/KX148223:0.05110343412659765217{139}):0.00981707488713842204{140}):0.04921099721648704989{141}):0.00598076068716281439{142},((alignment/AL_Arctic_AL2/member/ncbi-refseqs/KC171645:0.02724774798924328029{143},alignment/AL_Arctic_AL2/member/ncbi-refseqs/KM272192:0.02644112531255836743{144}):0.02488427874547984725{145},((alignment/AL_Arctic_A/member/ncbi-refseqs/KX148105:0.00987949729286395628{146},alignment/AL_Arctic_A/member/ncbi-refseqs/KX148106:0.01263880022881847150{147}):0.03833760623453649069{148},(((alignment/AL_Arctic_AL1b/member/ncbi-refseqs/KX148227:0.01682175122650233709{149},alignment/AL_Arctic_AL1b/member/ncbi-refseqs/KX148225:0.01587706296577004461{150}):0.00340282010823785962{151},(((alignment/AL_Arctic_AL1a/member/ncbi-refseqs/HE802676:0.01201318867569101459{152},alignment/AL_Arctic_AL1a/member/ncbi-refseqs/HE802675:0.00854345563605574988{153}):0.00589207958132899941{154},alignment/AL_Arctic_AL1a/member/ncbi-refseqs/KF154996:0.00816492187842278450{155}):0.00242840814427422317{156},(alignment/AL_Arctic_AL1a/member/ncbi-refseqs/AF369330:0.00926774805716113620{157},(alignment/AL_Arctic_AL1a/member/ncbi-refseqs/EF437215:0.00920307318544454599{158},alignment/AL_Arctic_AL1a/member/ncbi-refseqs/AY956319:0.01154500571017119670{159}):0.00414587932053899107{160}):0.00213014271743024522{161}):0.00514139941258936334{162}):0.00884419310782124692{163},alignment/AL_Arctic_AL3/member/ncbi-refseqs/KX148228:0.02430110891020847638{164}):0.01411034928231062746{165}):0.00964862696875671416{166}):0.03786140888714252528{167}):0.01910209187169204306{168},(alignment/AL_Africa-2/member/ncbi-refseqs/KX148244:0.04623088971305781836{169},(alignment/AL_Africa-2/member/ncbi-refseqs/KX148243:0.01493299473536404721{170},(alignment/AL_Africa-2/member/ncbi-refseqs/KX148107:0.01206977944891087819{171},((alignment/AL_Africa-2/member/ncbi-refseqs/KX148238:0.01188336426140145299{172},alignment/AL_Africa-2/member/ncbi-refseqs/KX148234:0.01020620861270456724{173}):0.00357126289568861699{174},alignment/AL_Africa-2/member/ncbi-refseqs/KX148229:0.01481362609163882314{175}):0.00214708216402074385{176}):0.00210572676016321280{177}):0.02304489786196817561{178}):0.05945096607591607990{179}):0.02917996983747959960{180},(((((alignment/AL_Asian_SEA3/member/ncbi-refseqs/JQ730682:0.02185536038870250844{181},(alignment/AL_Asian_SEA3/member/ncbi-refseqs/EU293111:0.02065043190192417805{182},(alignment/AL_Asian_SEA3/member/ncbi-refseqs/KX148255:0.01580501304124203726{183},(alignment/AL_Asian_SEA3/member/ncbi-refseqs/AB981663:0.01381538554283229421{184},alignment/AL_Asian_SEA3/member/ncbi-refseqs/KX148249:0.01159203122956629743{185}):0.00133616167272825504{186}):0.00609675759398148592{187}):0.00301261760994644663{188}):0.00074825740762038016{189},alignment/AL_Asian_SEA3/member/ncbi-refseqs/KX148247:0.01844325561579248512{190}):0.00368765479196855222{191},alignment/AL_Asian_SEA3/member/ncbi-refseqs/AF325487:0.01659634646291249446{192}):0.06312556989269176022{193},((alignment/AL_Asian_SEA5/member/ncbi-refseqs/KF620487:0.01180444788913425497{194},alignment/AL_Asian_SEA5/member/ncbi-refseqs/KF620488:0.01753809255565047520{195}):0.07918562250519367574{196},((((alignment/AL_Asian_SEA2a/member/ncbi-refseqs/EU643590:0.01992035807299187208{197},alignment/AL_Asian_SEA2a/member/ncbi-refseqs/JQ970480:0.00931296181269178867{198}):0.00180966946800976969{199},alignment/AL_Asian_SEA2a/member/ncbi-refseqs/GU358653:0.00737606457281374597{200}):0.01791181689290990281{201},(alignment/AL_Asian_SEA2b/member/ncbi-refseqs/FJ712195:0.02113620009781632877{202},alignment/AL_Asian_SEA2b/member/ncbi-refseqs/GU647092:0.00827165609363714367{203}):0.02493887142777527488{204}):0.03103633320798300857{205},(alignment/AL_Asian_SEA4/member/ncbi-refseqs/KX148263:0.01483527299917544902{206},alignment/AL_Asian_SEA4/member/ncbi-refseqs/KX148259:0.01681195738683378960{207}):0.04667261649285509018{208}):0.00232116726323641949{209}):0.01560138108294702522{210}):0.00871032410409921208{211},(alignment/AL_Asian_SEA1a/member/ncbi-refseqs/GU345747:0.05265097799968271319{212},(alignment/AL_Asian_SEA1b/member/ncbi-refseqs/KX148266:0.03629502071417220477{213},(alignment/AL_Asian_SEA1b/member/ncbi-refseqs/KF726853:0.03992622891181888539{214},(alignment/AL_Asian_SEA1b/member/ncbi-refseqs/KC169986:0.01230055148754629658{215},((alignment/AL_Asian_SEA1b/member/ncbi-refseqs/JQ970485:0.00806545961993973548{216},alignment/AL_Asian_SEA1b/member/ncbi-refseqs/KC762941:0.01350729622607341369{217}):0.00304418347690328965{218},(alignment/AL_Asian_SEA1b/member/ncbi-refseqs/HQ450385:0.00963310657901690973{219},(alignment/AL_Asian_SEA1b/member/ncbi-refseqs/JQ970484:0.00651404509513817988{220},(alignment/AL_Asian_SEA1b/member/ncbi-refseqs/EU086146:0.00350501122752263977{221},(alignment/AL_Asian_SEA1b/member/ncbi-refseqs/KX148265:0.00129875125004920607{222},(alignment/AL_Asian_SEA1b/member/ncbi-refseqs/JQ970481:0.00202543903020269275{223},(alignment/AL_Asian_SEA1b/member/ncbi-refseqs/FJ712194:0.02253421652082764765{224},alignment/AL_Asian_SEA1b/member/ncbi-refseqs/GU345748:0.00490761079412762712{225}):0.00044107998984673174{226}):0.00172014394397381832{227}):0.00244202371880691479{228}):0.00192233584610148494{229}):0.00010908012834837572{230}):0.00103078822262474474{231}):0.00000556229375782305{232}):0.01901471021658930616{233}):0.01112165395381294747{234}):0.02007166474521169044{235}):0.02481867190146982288{236}):0.03809881278740664956{237}):0.00663278420387448161{238},(((alignment/AL_Indian-Sub/member/ncbi-refseqs/KF154999:0.01194519364796794124{239},alignment/AL_Indian-Sub/member/ncbi-refseqs/AB635373:0.01868336202398302240{240}):0.02270360417110857398{241},alignment/AL_Indian-Sub/member/ncbi-refseqs/KX148246:0.03510224186958384174{242}):0.01466464819728085026{243},alignment/AL_Indian-Sub/member/ncbi-refseqs/KX148245:0.04863732856918051572{244}):0.06580432741482021564{245}):0.05130110775487933122{246},(((alignment/AL_RAC-SK/member/ncbi-refseqs/JQ685929:0.01205682438322155936{247},alignment/AL_RAC-SK/member/ncbi-refseqs/JQ685954:0.01022730133646190288{248}):0.10865803489269998394{249},((alignment/AL_RAC-SK/member/ncbi-refseqs/EU311738:0.01634615649000133522{250},alignment/AL_RAC-SK/member/ncbi-refseqs/JQ685901:0.01236553412074394183{251}):0.08669219238402739447{252},alignment/AL_RAC-SK/member/ncbi-refseqs/JQ685938:0.13421155868242146125{253}):0.01929956157739309494{254}):0.04470177467880601108{255},(alignment/AL_Bats_EFu/member/ncbi-refseqs/AB383165:0.10595621244958562668{256},(((alignment/AL_Bats_AP/member/ncbi-refseqs/JQ685971:0.05530783178992070004{257},(((alignment/AL_Bats_MYsp/member/ncbi-refseqs/JQ685918:0.02580850902764755470{258},alignment/AL_Bats_MYsp/member/ncbi-refseqs/JQ685957:0.03013880122261718489{259}):0.01201434875527250881{260},alignment/AL_Bats_MYsp/member/ncbi-refseqs/JQ685998:0.04420074282357633333{261}):0.00264882326312937616{262},(alignment/AL_Bats_PH/member/ncbi-refseqs/JQ685921:0.07822590457014858001{263},alignment/AL_Bats_PH/member/ncbi-refseqs/JQ685952:0.05277566191075620805{264}):0.00275127070614196662{265}):0.00945099143533818971{266}):0.00541009100351697719{267},((alignment/AL_Bats_MYu/member/ncbi-refseqs/JQ685955:0.05715762903031897796{268},((alignment/AL_Bats_EF-W2/member/ncbi-refseqs/JQ685942:0.02274604791151642325{269},alignment/AL_Bats_EF-W2/member/ncbi-refseqs/JQ685931:0.01754314159984693769{270}):0.00613031524036640463{271},alignment/AL_Bats_EF-W1/member/ncbi-refseqs/JQ685956:0.02359610293277861551{272}):0.01037942038662116942{273}):0.00190995125891300238{274},((((alignment/AL_Bats_LN/member/ncbi-refseqs/JQ685895:0.01163518513085952041{275},alignment/AL_Bats_PS/member/ncbi-refseqs/AY705373:0.01646921654384198019{276}):0.00858231962995837684{277},((alignment/AL_Bats_LX/member/ncbi-refseqs/JQ685910:0.01313948296113238816{278},((alignment/AL_Bats_LC/member/ncbi-refseqs/JQ685947:0.01295122749391445192{279},alignment/AL_Bats_LB1/member/ncbi-refseqs/JQ685919:0.01477722817976591559{280}):0.00180593002804227518{281},alignment/AL_Bats_LS/member/ncbi-refseqs/JQ685900:0.01588663883489015161{282}):0.00023301668702957020{283}):0.00047457017176559882{284},alignment/AL_Bats_LB2/member/ncbi-refseqs/JQ685902:0.02111842278521932487{285}):0.03019022417214965032{286}):0.05811075478315678305{287},(alignment/AL_Bats_LI/member/ncbi-refseqs/JQ685916:0.02920194393298114477{288},alignment/AL_Bats_LI/member/ncbi-refseqs/JQ685915:0.03164063462464327542{289}):0.05136332935142844808{290}):0.00617529119749128143{291},(alignment/AL_Bats_TB2/member/ncbi-refseqs/EU293116:0.04255081953686735974{292},((alignment/AL_Bats_DR/member/ncbi-refseqs/JQ685953:0.03843350521130994846{293},(alignment/AL_Bats_DR/member/ncbi-refseqs/JQ685936:0.02562276662848212566{294},(alignment/AL_Bats_DR/member/ncbi-refseqs/AB519641:0.01269498239352691640{295},((alignment/AL_Bats_DR/member/ncbi-refseqs/KX148268:0.00987024756016976514{296},(alignment/AL_Bats_DR/member/ncbi-refseqs/KX148100:0.01070445763624058855{297},alignment/AL_Bats_DR/member/ncbi-refseqs/AB519642:0.01117957234630706682{298}):0.00252763053642956950{299}):0.00277843324206915928{300},alignment/AL_Bats_DR/member/ncbi-refseqs/KX148109:0.01358879702327755144{301}):0.00153920053729551462{302}):0.00210145392399042593{303}):0.01244705688571628478{304}):0.01456422649546372343{305},(alignment/AL_Bats_TB1/member/ncbi-refseqs/JQ685905:0.03208640308387567669{306},alignment/AL_Bats_TB1/member/ncbi-refseqs/JQ685963:0.04293963605732215028{307}):0.01214187345274773955{308}):0.05051642332924008438{309}):0.02643226380391063696{310}):0.00165895985280755352{311}):0.01757825917708209437{312}):0.00123454376200539959{313},(alignment/AL_Bats_EF-E2/member/ncbi-refseqs/JQ685925:0.04746025709653550056{314},alignment/AL_Bats_EF-E1/member/ncbi-refseqs/JQ685920:0.04033641977029592263{315}):0.01595077351173340360{316}):0.00808155285617622419{317}):0.00894533262769951418{318}):0.05130110775487933122{319});</labelledPhyloTree>
+    <labelledPhyloTreeFormat glueType="String">NEWICK_JPLACE</labelledPhyloTreeFormat>
+    <singleQueryResult glueType="Object[]">
+        <queryName glueType="String">ncbi-curated/JF819592</queryName>
+        <singlePlacement glueType="Object[]">
+            <placementIndex glueType="Integer">1</placementIndex>
+            <edgeIndex glueType="Integer">181</edgeIndex>
+            <likeWeightRatio glueType="Double">1.0</likeWeightRatio>
+            <logLikelihood glueType="Double">-275417.840469</logLikelihood>
+            <distalLength glueType="Double">0.021854</distalLength>
+            <pendantLength glueType="Double">1.0E-6</pendantLength>
+        </singlePlacement>
+    </singleQueryResult>
+    <singleQueryResult glueType="Object[]">
+        <queryName glueType="String">ncbi-curated/JF819593</queryName>
+        <singlePlacement glueType="Object[]">
+            <placementIndex glueType="Integer">1</placementIndex>
+            <edgeIndex glueType="Integer">181</edgeIndex>
+            <likeWeightRatio glueType="Double">1.0</likeWeightRatio>
+            <logLikelihood glueType="Double">-275417.840469</logLikelihood>
+            <distalLength glueType="Double">0.021854</distalLength>
+            <pendantLength glueType="Double">1.0E-6</pendantLength>
+        </singlePlacement>
+    </singleQueryResult>
+    <singleQueryResult glueType="Object[]">
+        <queryName glueType="String">ncbi-curated/JF819594</queryName>
+        <singlePlacement glueType="Object[]">
+            <placementIndex glueType="Integer">1</placementIndex>
+            <edgeIndex glueType="Integer">181</edgeIndex>
+            <likeWeightRatio glueType="Double">1.0</likeWeightRatio>
+            <logLikelihood glueType="Double">-275417.840469</logLikelihood>
+            <distalLength glueType="Double">0.021854</distalLength>
+            <pendantLength glueType="Double">1.0E-6</pendantLength>
+        </singlePlacement>
+    </singleQueryResult>
+    <singleQueryResult glueType="Object[]">
+        <queryName glueType="String">ncbi-curated/JF819595</queryName>
+        <singlePlacement glueType="Object[]">
+            <placementIndex glueType="Integer">1</placementIndex>
+            <edgeIndex glueType="Integer">181</edgeIndex>
+            <likeWeightRatio glueType="Double">1.0</likeWeightRatio>
+            <logLikelihood glueType="Double">-275417.840469</logLikelihood>
+            <distalLength glueType="Double">0.021854</distalLength>
+            <pendantLength glueType="Double">1.0E-6</pendantLength>
+        </singlePlacement>
+    </singleQueryResult>
+    <singleQueryResult glueType="Object[]">
+        <queryName glueType="String">ncbi-curated/JF819596</queryName>
+        <singlePlacement glueType="Object[]">
+            <placementIndex glueType="Integer">1</placementIndex>
+            <edgeIndex glueType="Integer">181</edgeIndex>
+            <likeWeightRatio glueType="Double">1.0</likeWeightRatio>
+            <logLikelihood glueType="Double">-275426.797561</logLikelihood>
+            <distalLength glueType="Double">0.021854</distalLength>
+            <pendantLength glueType="Double">9.91E-4</pendantLength>
+        </singlePlacement>
+    </singleQueryResult>
+    <singleQueryResult glueType="Object[]">
+        <queryName glueType="String">ncbi-curated/JF819597</queryName>
+        <singlePlacement glueType="Object[]">
+            <placementIndex glueType="Integer">1</placementIndex>
+            <edgeIndex glueType="Integer">219</edgeIndex>
+            <likeWeightRatio glueType="Double">1.0</likeWeightRatio>
+            <logLikelihood glueType="Double">-275475.12572</logLikelihood>
+            <distalLength glueType="Double">0.005666</distalLength>
+            <pendantLength glueType="Double">0.004129</pendantLength>
+        </singlePlacement>
+    </singleQueryResult>
+    <singleQueryResult glueType="Object[]">
+        <queryName glueType="String">ncbi-curated/JF819598</queryName>
+        <singlePlacement glueType="Object[]">
+            <placementIndex glueType="Integer">1</placementIndex>
+            <edgeIndex glueType="Integer">219</edgeIndex>
+            <likeWeightRatio glueType="Double">1.0</likeWeightRatio>
+            <logLikelihood glueType="Double">-275479.357782</logLikelihood>
+            <distalLength glueType="Double">0.005666</distalLength>
+            <pendantLength glueType="Double">0.004728</pendantLength>
+        </singlePlacement>
+    </singleQueryResult>
+    <singleQueryResult glueType="Object[]">
+        <queryName glueType="String">ncbi-curated/JF819599</queryName>
+        <singlePlacement glueType="Object[]">
+            <placementIndex glueType="Integer">1</placementIndex>
+            <edgeIndex glueType="Integer">219</edgeIndex>
+            <likeWeightRatio glueType="Double">1.0</likeWeightRatio>
+            <logLikelihood glueType="Double">-275482.770565</logLikelihood>
+            <distalLength glueType="Double">0.005668</distalLength>
+            <pendantLength glueType="Double">0.004757</pendantLength>
+        </singlePlacement>
+    </singleQueryResult>
+    <singleQueryResult glueType="Object[]">
+        <queryName glueType="String">ncbi-curated/JF819600</queryName>
+        <singlePlacement glueType="Object[]">
+            <placementIndex glueType="Integer">1</placementIndex>
+            <edgeIndex glueType="Integer">219</edgeIndex>
+            <likeWeightRatio glueType="Double">1.0</likeWeightRatio>
+            <logLikelihood glueType="Double">-275480.820784</logLikelihood>
+            <distalLength glueType="Double">0.005667</distalLength>
+            <pendantLength glueType="Double">0.004731</pendantLength>
+        </singlePlacement>
+    </singleQueryResult>
+    <singleQueryResult glueType="Object[]">
+        <queryName glueType="String">ncbi-curated/JF819601</queryName>
+        <singlePlacement glueType="Object[]">
+            <placementIndex glueType="Integer">1</placementIndex>
+            <edgeIndex glueType="Integer">219</edgeIndex>
+            <likeWeightRatio glueType="Double">1.0</likeWeightRatio>
+            <logLikelihood glueType="Double">-275477.564055</logLikelihood>
+            <distalLength glueType="Double">0.005667</distalLength>
+            <pendantLength glueType="Double">0.004155</pendantLength>
+        </singlePlacement>
+    </singleQueryResult>
+    <singleQueryResult glueType="Object[]">
+        <queryName glueType="String">ncbi-curated/JF819602</queryName>
+        <singlePlacement glueType="Object[]">
+            <placementIndex glueType="Integer">1</placementIndex>
+            <edgeIndex glueType="Integer">219</edgeIndex>
+            <likeWeightRatio glueType="Double">1.0</likeWeightRatio>
+            <logLikelihood glueType="Double">-275496.222883</logLikelihood>
+            <distalLength glueType="Double">0.00567</distalLength>
+            <pendantLength glueType="Double">0.005972</pendantLength>
+        </singlePlacement>
+    </singleQueryResult>
+    <singleQueryResult glueType="Object[]">
+        <queryName glueType="String">ncbi-curated/JF819603</queryName>
+        <singlePlacement glueType="Object[]">
+            <placementIndex glueType="Integer">1</placementIndex>
+            <edgeIndex glueType="Integer">181</edgeIndex>
+            <likeWeightRatio glueType="Double">1.0</likeWeightRatio>
+            <logLikelihood glueType="Double">-275434.611607</logLikelihood>
+            <distalLength glueType="Double">0.019193</distalLength>
+            <pendantLength glueType="Double">7.28E-4</pendantLength>
+        </singlePlacement>
+    </singleQueryResult>
+    <singleQueryResult glueType="Object[]">
+        <queryName glueType="String">ncbi-curated/JF819604</queryName>
+        <singlePlacement glueType="Object[]">
+            <placementIndex glueType="Integer">1</placementIndex>
+            <edgeIndex glueType="Integer">181</edgeIndex>
+            <likeWeightRatio glueType="Double">1.0</likeWeightRatio>
+            <logLikelihood glueType="Double">-275434.611607</logLikelihood>
+            <distalLength glueType="Double">0.019193</distalLength>
+            <pendantLength glueType="Double">7.28E-4</pendantLength>
+        </singlePlacement>
+    </singleQueryResult>
+    <singleQueryResult glueType="Object[]">
+        <queryName glueType="String">ncbi-curated/JF819605</queryName>
+        <singlePlacement glueType="Object[]">
+            <placementIndex glueType="Integer">1</placementIndex>
+            <edgeIndex glueType="Integer">205</edgeIndex>
+            <likeWeightRatio glueType="Double">0.973977</likeWeightRatio>
+            <logLikelihood glueType="Double">-275645.025756</logLikelihood>
+            <distalLength glueType="Double">0.021482</distalLength>
+            <pendantLength glueType="Double">0.04062</pendantLength>
+        </singlePlacement>
+        <singlePlacement glueType="Object[]">
+            <placementIndex glueType="Integer">2</placementIndex>
+            <edgeIndex glueType="Integer">204</edgeIndex>
+            <likeWeightRatio glueType="Double">0.013525</likeWeightRatio>
+            <logLikelihood glueType="Double">-275649.302613</logLikelihood>
+            <distalLength glueType="Double">0.001336</distalLength>
+            <pendantLength glueType="Double">0.046467</pendantLength>
+        </singlePlacement>
+        <singlePlacement glueType="Object[]">
+            <placementIndex glueType="Integer">3</placementIndex>
+            <edgeIndex glueType="Integer">201</edgeIndex>
+            <likeWeightRatio glueType="Double">0.012498</likeWeightRatio>
+            <logLikelihood glueType="Double">-275649.38158</logLikelihood>
+            <distalLength glueType="Double">1.0E-6</distalLength>
+            <pendantLength glueType="Double">0.047063</pendantLength>
+        </singlePlacement>
+    </singleQueryResult>
+    <singleQueryResult glueType="Object[]">
+        <queryName glueType="String">ncbi-curated/JF819606</queryName>
+        <singlePlacement glueType="Object[]">
+            <placementIndex glueType="Integer">1</placementIndex>
+            <edgeIndex glueType="Integer">205</edgeIndex>
+            <likeWeightRatio glueType="Double">0.995849</likeWeightRatio>
+            <logLikelihood glueType="Double">-275590.06624</logLikelihood>
+            <distalLength glueType="Double">0.020584</distalLength>
+            <pendantLength glueType="Double">0.027297</pendantLength>
+        </singlePlacement>
+    </singleQueryResult>
+    <singleQueryResult glueType="Object[]">
+        <queryName glueType="String">ncbi-curated/JF819607</queryName>
+        <singlePlacement glueType="Object[]">
+            <placementIndex glueType="Integer">1</placementIndex>
+            <edgeIndex glueType="Integer">205</edgeIndex>
+            <likeWeightRatio glueType="Double">0.996335</likeWeightRatio>
+            <logLikelihood glueType="Double">-275587.54705</logLikelihood>
+            <distalLength glueType="Double">0.02047</distalLength>
+            <pendantLength glueType="Double">0.026977</pendantLength>
+        </singlePlacement>
+    </singleQueryResult>
+    <singleQueryResult glueType="Object[]">
+        <queryName glueType="String">ncbi-curated/JF819608</queryName>
+        <singlePlacement glueType="Object[]">
+            <placementIndex glueType="Integer">1</placementIndex>
+            <edgeIndex glueType="Integer">181</edgeIndex>
+            <likeWeightRatio glueType="Double">1.0</likeWeightRatio>
+            <logLikelihood glueType="Double">-275434.611607</logLikelihood>
+            <distalLength glueType="Double">0.019193</distalLength>
+            <pendantLength glueType="Double">7.28E-4</pendantLength>
+        </singlePlacement>
+    </singleQueryResult>
+    <singleQueryResult glueType="Object[]">
+        <queryName glueType="String">ncbi-curated/JF819609</queryName>
+        <singlePlacement glueType="Object[]">
+            <placementIndex glueType="Integer">1</placementIndex>
+            <edgeIndex glueType="Integer">181</edgeIndex>
+            <likeWeightRatio glueType="Double">1.0</likeWeightRatio>
+            <logLikelihood glueType="Double">-275434.611607</logLikelihood>
+            <distalLength glueType="Double">0.019193</distalLength>
+            <pendantLength glueType="Double">7.28E-4</pendantLength>
+        </singlePlacement>
+    </singleQueryResult>
+    <singleQueryResult glueType="Object[]">
+        <queryName glueType="String">ncbi-curated/JF819610</queryName>
+        <singlePlacement glueType="Object[]">
+            <placementIndex glueType="Integer">1</placementIndex>
+            <edgeIndex glueType="Integer">181</edgeIndex>
+            <likeWeightRatio glueType="Double">1.0</likeWeightRatio>
+            <logLikelihood glueType="Double">-275434.611607</logLikelihood>
+            <distalLength glueType="Double">0.019193</distalLength>
+            <pendantLength glueType="Double">7.28E-4</pendantLength>
+        </singlePlacement>
+    </singleQueryResult>
+    <singleQueryResult glueType="Object[]">
+        <queryName glueType="String">ncbi-curated/JF819611</queryName>
+        <singlePlacement glueType="Object[]">
+            <placementIndex glueType="Integer">1</placementIndex>
+            <edgeIndex glueType="Integer">219</edgeIndex>
+            <likeWeightRatio glueType="Double">1.0</likeWeightRatio>
+            <logLikelihood glueType="Double">-275460.873557</logLikelihood>
+            <distalLength glueType="Double">0.008251</distalLength>
+            <pendantLength glueType="Double">0.004833</pendantLength>
+        </singlePlacement>
+    </singleQueryResult>
+    <singleQueryResult glueType="Object[]">
+        <queryName glueType="String">ncbi-curated/JF819612</queryName>
+        <singlePlacement glueType="Object[]">
+            <placementIndex glueType="Integer">1</placementIndex>
+            <edgeIndex glueType="Integer">205</edgeIndex>
+            <likeWeightRatio glueType="Double">0.996335</likeWeightRatio>
+            <logLikelihood glueType="Double">-275587.54705</logLikelihood>
+            <distalLength glueType="Double">0.02047</distalLength>
+            <pendantLength glueType="Double">0.026977</pendantLength>
+        </singlePlacement>
+    </singleQueryResult>
+    <singleQueryResult glueType="Object[]">
+        <queryName glueType="String">ncbi-curated/JF819613</queryName>
+        <singlePlacement glueType="Object[]">
+            <placementIndex glueType="Integer">1</placementIndex>
+            <edgeIndex glueType="Integer">205</edgeIndex>
+            <likeWeightRatio glueType="Double">0.99706</likeWeightRatio>
+            <logLikelihood glueType="Double">-275582.84313</logLikelihood>
+            <distalLength glueType="Double">0.020379</distalLength>
+            <pendantLength glueType="Double">0.025791</pendantLength>
+        </singlePlacement>
+    </singleQueryResult>
+    <singleQueryResult glueType="Object[]">
+        <queryName glueType="String">ncbi-curated/JF819614</queryName>
+        <singlePlacement glueType="Object[]">
+            <placementIndex glueType="Integer">1</placementIndex>
+            <edgeIndex glueType="Integer">205</edgeIndex>
+            <likeWeightRatio glueType="Double">0.990352</likeWeightRatio>
+            <logLikelihood glueType="Double">-275611.156189</logLikelihood>
+            <distalLength glueType="Double">0.020922</distalLength>
+            <pendantLength glueType="Double">0.032908</pendantLength>
+        </singlePlacement>
+    </singleQueryResult>
+    <singleQueryResult glueType="Object[]">
+        <queryName glueType="String">ncbi-curated/JF819615</queryName>
+        <singlePlacement glueType="Object[]">
+            <placementIndex glueType="Integer">1</placementIndex>
+            <edgeIndex glueType="Integer">205</edgeIndex>
+            <likeWeightRatio glueType="Double">0.995476</likeWeightRatio>
+            <logLikelihood glueType="Double">-275592.175145</logLikelihood>
+            <distalLength glueType="Double">0.02056</distalLength>
+            <pendantLength glueType="Double">0.028162</pendantLength>
+        </singlePlacement>
+    </singleQueryResult>
+    <singleQueryResult glueType="Object[]">
+        <queryName glueType="String">ncbi-curated/JF819616</queryName>
+        <singlePlacement glueType="Object[]">
+            <placementIndex glueType="Integer">1</placementIndex>
+            <edgeIndex glueType="Integer">181</edgeIndex>
+            <likeWeightRatio glueType="Double">1.0</likeWeightRatio>
+            <logLikelihood glueType="Double">-275434.611607</logLikelihood>
+            <distalLength glueType="Double">0.019193</distalLength>
+            <pendantLength glueType="Double">7.28E-4</pendantLength>
+        </singlePlacement>
+    </singleQueryResult>
+    <singleQueryResult glueType="Object[]">
+        <queryName glueType="String">ncbi-curated/JF819617</queryName>
+        <singlePlacement glueType="Object[]">
+            <placementIndex glueType="Integer">1</placementIndex>
+            <edgeIndex glueType="Integer">181</edgeIndex>
+            <likeWeightRatio glueType="Double">1.0</likeWeightRatio>
+            <logLikelihood glueType="Double">-275434.611607</logLikelihood>
+            <distalLength glueType="Double">0.019193</distalLength>
+            <pendantLength glueType="Double">7.28E-4</pendantLength>
+        </singlePlacement>
+    </singleQueryResult>
+    <singleQueryResult glueType="Object[]">
+        <queryName glueType="String">ncbi-curated/JF819618</queryName>
+        <singlePlacement glueType="Object[]">
+            <placementIndex glueType="Integer">1</placementIndex>
+            <edgeIndex glueType="Integer">181</edgeIndex>
+            <likeWeightRatio glueType="Double">1.0</likeWeightRatio>
+            <logLikelihood glueType="Double">-275434.611607</logLikelihood>
+            <distalLength glueType="Double">0.019193</distalLength>
+            <pendantLength glueType="Double">7.28E-4</pendantLength>
+        </singlePlacement>
+    </singleQueryResult>
+    <singleQueryResult glueType="Object[]">
+        <queryName glueType="String">ncbi-curated/JF819619</queryName>
+        <singlePlacement glueType="Object[]">
+            <placementIndex glueType="Integer">1</placementIndex>
+            <edgeIndex glueType="Integer">219</edgeIndex>
+            <likeWeightRatio glueType="Double">1.0</likeWeightRatio>
+            <logLikelihood glueType="Double">-275469.46599</logLikelihood>
+            <distalLength glueType="Double">0.00825</distalLength>
+            <pendantLength glueType="Double">0.006482</pendantLength>
+        </singlePlacement>
+    </singleQueryResult>
+    <singleQueryResult glueType="Object[]">
+        <queryName glueType="String">ncbi-curated/JF819620</queryName>
+        <singlePlacement glueType="Object[]">
+            <placementIndex glueType="Integer">1</placementIndex>
+            <edgeIndex glueType="Integer">219</edgeIndex>
+            <likeWeightRatio glueType="Double">1.0</likeWeightRatio>
+            <logLikelihood glueType="Double">-275454.381816</logLikelihood>
+            <distalLength glueType="Double">0.008249</distalLength>
+            <pendantLength glueType="Double">0.004013</pendantLength>
+        </singlePlacement>
+    </singleQueryResult>
+    <singleQueryResult glueType="Object[]">
+        <queryName glueType="String">ncbi-curated/JF819621</queryName>
+        <singlePlacement glueType="Object[]">
+            <placementIndex glueType="Integer">1</placementIndex>
+            <edgeIndex glueType="Integer">219</edgeIndex>
+            <likeWeightRatio glueType="Double">1.0</likeWeightRatio>
+            <logLikelihood glueType="Double">-275454.331417</logLikelihood>
+            <distalLength glueType="Double">0.008249</distalLength>
+            <pendantLength glueType="Double">0.004013</pendantLength>
+        </singlePlacement>
+    </singleQueryResult>
+    <singleQueryResult glueType="Object[]">
+        <queryName glueType="String">ncbi-curated/JF819622</queryName>
+        <singlePlacement glueType="Object[]">
+            <placementIndex glueType="Integer">1</placementIndex>
+            <edgeIndex glueType="Integer">205</edgeIndex>
+            <likeWeightRatio glueType="Double">0.996335</likeWeightRatio>
+            <logLikelihood glueType="Double">-275587.54705</logLikelihood>
+            <distalLength glueType="Double">0.02047</distalLength>
+            <pendantLength glueType="Double">0.026977</pendantLength>
+        </singlePlacement>
+    </singleQueryResult>
+    <singleQueryResult glueType="Object[]">
+        <queryName glueType="String">ncbi-curated/JF819623</queryName>
+        <singlePlacement glueType="Object[]">
+            <placementIndex glueType="Integer">1</placementIndex>
+            <edgeIndex glueType="Integer">219</edgeIndex>
+            <likeWeightRatio glueType="Double">1.0</likeWeightRatio>
+            <logLikelihood glueType="Double">-275454.644298</logLikelihood>
+            <distalLength glueType="Double">0.008251</distalLength>
+            <pendantLength glueType="Double">0.004016</pendantLength>
+        </singlePlacement>
+    </singleQueryResult>
+    <singleQueryResult glueType="Object[]">
+        <queryName glueType="String">ncbi-curated/JF819624</queryName>
+        <singlePlacement glueType="Object[]">
+            <placementIndex glueType="Integer">1</placementIndex>
+            <edgeIndex glueType="Integer">219</edgeIndex>
+            <likeWeightRatio glueType="Double">1.0</likeWeightRatio>
+            <logLikelihood glueType="Double">-275456.388223</logLikelihood>
+            <distalLength glueType="Double">0.008253</distalLength>
+            <pendantLength glueType="Double">0.00402</pendantLength>
+        </singlePlacement>
+    </singleQueryResult>
+    <singleQueryResult glueType="Object[]">
+        <queryName glueType="String">ncbi-curated/JF819625</queryName>
+        <singlePlacement glueType="Object[]">
+            <placementIndex glueType="Integer">1</placementIndex>
+            <edgeIndex glueType="Integer">205</edgeIndex>
+            <likeWeightRatio glueType="Double">0.852444</likeWeightRatio>
+            <logLikelihood glueType="Double">-275490.223778</logLikelihood>
+            <distalLength glueType="Double">0.025209</distalLength>
+            <pendantLength glueType="Double">0.027736</pendantLength>
+        </singlePlacement>
+        <singlePlacement glueType="Object[]">
+            <placementIndex glueType="Integer">2</placementIndex>
+            <edgeIndex glueType="Integer">204</edgeIndex>
+            <likeWeightRatio glueType="Double">0.074244</likeWeightRatio>
+            <logLikelihood glueType="Double">-275492.664523</logLikelihood>
+            <distalLength glueType="Double">1.0E-6</distalLength>
+            <pendantLength glueType="Double">0.031067</pendantLength>
+        </singlePlacement>
+        <singlePlacement glueType="Object[]">
+            <placementIndex glueType="Integer">3</placementIndex>
+            <edgeIndex glueType="Integer">201</edgeIndex>
+            <likeWeightRatio glueType="Double">0.073311</likeWeightRatio>
+            <logLikelihood glueType="Double">-275492.677173</logLikelihood>
+            <distalLength glueType="Double">1.0E-6</distalLength>
+            <pendantLength glueType="Double">0.031095</pendantLength>
+        </singlePlacement>
+    </singleQueryResult>
+    <singleQueryResult glueType="Object[]">
+        <queryName glueType="String">ncbi-curated/JF819626</queryName>
+        <singlePlacement glueType="Object[]">
+            <placementIndex glueType="Integer">1</placementIndex>
+            <edgeIndex glueType="Integer">205</edgeIndex>
+            <likeWeightRatio glueType="Double">0.838182</likeWeightRatio>
+            <logLikelihood glueType="Double">-275496.973281</logLikelihood>
+            <distalLength glueType="Double">0.025285</distalLength>
+            <pendantLength glueType="Double">0.030143</pendantLength>
+        </singlePlacement>
+        <singlePlacement glueType="Object[]">
+            <placementIndex glueType="Integer">2</placementIndex>
+            <edgeIndex glueType="Integer">204</edgeIndex>
+            <likeWeightRatio glueType="Double">0.081385</likeWeightRatio>
+            <logLikelihood glueType="Double">-275499.305322</logLikelihood>
+            <distalLength glueType="Double">1.0E-6</distalLength>
+            <pendantLength glueType="Double">0.033459</pendantLength>
+        </singlePlacement>
+        <singlePlacement glueType="Object[]">
+            <placementIndex glueType="Integer">3</placementIndex>
+            <edgeIndex glueType="Integer">201</edgeIndex>
+            <likeWeightRatio glueType="Double">0.080432</likeWeightRatio>
+            <logLikelihood glueType="Double">-275499.317102</logLikelihood>
+            <distalLength glueType="Double">1.0E-6</distalLength>
+            <pendantLength glueType="Double">0.033486</pendantLength>
+        </singlePlacement>
+    </singleQueryResult>
+    <singleQueryResult glueType="Object[]">
+        <queryName glueType="String">ncbi-curated/JF819627</queryName>
+        <singlePlacement glueType="Object[]">
+            <placementIndex glueType="Integer">1</placementIndex>
+            <edgeIndex glueType="Integer">205</edgeIndex>
+            <likeWeightRatio glueType="Double">0.935709</likeWeightRatio>
+            <logLikelihood glueType="Double">-275509.914304</logLikelihood>
+            <distalLength glueType="Double">0.022821</distalLength>
+            <pendantLength glueType="Double">0.035894</pendantLength>
+        </singlePlacement>
+        <singlePlacement glueType="Object[]">
+            <placementIndex glueType="Integer">2</placementIndex>
+            <edgeIndex glueType="Integer">204</edgeIndex>
+            <likeWeightRatio glueType="Double">0.032327</likeWeightRatio>
+            <logLikelihood glueType="Double">-275513.279706</logLikelihood>
+            <distalLength glueType="Double">1.0E-6</distalLength>
+            <pendantLength glueType="Double">0.040977</pendantLength>
+        </singlePlacement>
+        <singlePlacement glueType="Object[]">
+            <placementIndex glueType="Integer">3</placementIndex>
+            <edgeIndex glueType="Integer">201</edgeIndex>
+            <likeWeightRatio glueType="Double">0.031962</likeWeightRatio>
+            <logLikelihood glueType="Double">-275513.291065</logLikelihood>
+            <distalLength glueType="Double">1.0E-6</distalLength>
+            <pendantLength glueType="Double">0.041008</pendantLength>
+        </singlePlacement>
+    </singleQueryResult>
+    <singleQueryResult glueType="Object[]">
+        <queryName glueType="String">ncbi-curated/JF819628</queryName>
+        <singlePlacement glueType="Object[]">
+            <placementIndex glueType="Integer">1</placementIndex>
+            <edgeIndex glueType="Integer">205</edgeIndex>
+            <likeWeightRatio glueType="Double">0.827465</likeWeightRatio>
+            <logLikelihood glueType="Double">-275495.679987</logLikelihood>
+            <distalLength glueType="Double">0.025291</distalLength>
+            <pendantLength glueType="Double">0.032465</pendantLength>
+        </singlePlacement>
+        <singlePlacement glueType="Object[]">
+            <placementIndex glueType="Integer">2</placementIndex>
+            <edgeIndex glueType="Integer">204</edgeIndex>
+            <likeWeightRatio glueType="Double">0.086741</likeWeightRatio>
+            <logLikelihood glueType="Double">-275497.935421</logLikelihood>
+            <distalLength glueType="Double">1.0E-6</distalLength>
+            <pendantLength glueType="Double">0.035832</pendantLength>
+        </singlePlacement>
+        <singlePlacement glueType="Object[]">
+            <placementIndex glueType="Integer">3</placementIndex>
+            <edgeIndex glueType="Integer">201</edgeIndex>
+            <likeWeightRatio glueType="Double">0.085794</likeWeightRatio>
+            <logLikelihood glueType="Double">-275497.946408</logLikelihood>
+            <distalLength glueType="Double">1.0E-6</distalLength>
+            <pendantLength glueType="Double">0.035859</pendantLength>
+        </singlePlacement>
+    </singleQueryResult>
+    <singleQueryResult glueType="Object[]">
+        <queryName glueType="String">ncbi-curated/JF819629</queryName>
+        <singlePlacement glueType="Object[]">
+            <placementIndex glueType="Integer">1</placementIndex>
+            <edgeIndex glueType="Integer">205</edgeIndex>
+            <likeWeightRatio glueType="Double">0.852444</likeWeightRatio>
+            <logLikelihood glueType="Double">-275490.223778</logLikelihood>
+            <distalLength glueType="Double">0.025209</distalLength>
+            <pendantLength glueType="Double">0.027736</pendantLength>
+        </singlePlacement>
+        <singlePlacement glueType="Object[]">
+            <placementIndex glueType="Integer">2</placementIndex>
+            <edgeIndex glueType="Integer">204</edgeIndex>
+            <likeWeightRatio glueType="Double">0.074244</likeWeightRatio>
+            <logLikelihood glueType="Double">-275492.664523</logLikelihood>
+            <distalLength glueType="Double">1.0E-6</distalLength>
+            <pendantLength glueType="Double">0.031067</pendantLength>
+        </singlePlacement>
+        <singlePlacement glueType="Object[]">
+            <placementIndex glueType="Integer">3</placementIndex>
+            <edgeIndex glueType="Integer">201</edgeIndex>
+            <likeWeightRatio glueType="Double">0.073311</likeWeightRatio>
+            <logLikelihood glueType="Double">-275492.677173</logLikelihood>
+            <distalLength glueType="Double">1.0E-6</distalLength>
+            <pendantLength glueType="Double">0.031095</pendantLength>
+        </singlePlacement>
+    </singleQueryResult>
+    <singleQueryResult glueType="Object[]">
+        <queryName glueType="String">ncbi-curated/JF819630</queryName>
+        <singlePlacement glueType="Object[]">
+            <placementIndex glueType="Integer">1</placementIndex>
+            <edgeIndex glueType="Integer">205</edgeIndex>
+            <likeWeightRatio glueType="Double">0.852444</likeWeightRatio>
+            <logLikelihood glueType="Double">-275490.223778</logLikelihood>
+            <distalLength glueType="Double">0.025209</distalLength>
+            <pendantLength glueType="Double">0.027736</pendantLength>
+        </singlePlacement>
+        <singlePlacement glueType="Object[]">
+            <placementIndex glueType="Integer">2</placementIndex>
+            <edgeIndex glueType="Integer">204</edgeIndex>
+            <likeWeightRatio glueType="Double">0.074244</likeWeightRatio>
+            <logLikelihood glueType="Double">-275492.664523</logLikelihood>
+            <distalLength glueType="Double">1.0E-6</distalLength>
+            <pendantLength glueType="Double">0.031067</pendantLength>
+        </singlePlacement>
+        <singlePlacement glueType="Object[]">
+            <placementIndex glueType="Integer">3</placementIndex>
+            <edgeIndex glueType="Integer">201</edgeIndex>
+            <likeWeightRatio glueType="Double">0.073311</likeWeightRatio>
+            <logLikelihood glueType="Double">-275492.677173</logLikelihood>
+            <distalLength glueType="Double">1.0E-6</distalLength>
+            <pendantLength glueType="Double">0.031095</pendantLength>
+        </singlePlacement>
+    </singleQueryResult>
+    <singleQueryResult glueType="Object[]">
+        <queryName glueType="String">ncbi-curated/JF819631</queryName>
+        <singlePlacement glueType="Object[]">
+            <placementIndex glueType="Integer">1</placementIndex>
+            <edgeIndex glueType="Integer">205</edgeIndex>
+            <likeWeightRatio glueType="Double">0.952572</likeWeightRatio>
+            <logLikelihood glueType="Double">-275498.461235</logLikelihood>
+            <distalLength glueType="Double">0.02268</distalLength>
+            <pendantLength glueType="Double">0.030267</pendantLength>
+        </singlePlacement>
+        <singlePlacement glueType="Object[]">
+            <placementIndex glueType="Integer">2</placementIndex>
+            <edgeIndex glueType="Integer">204</edgeIndex>
+            <likeWeightRatio glueType="Double">0.023873</likeWeightRatio>
+            <logLikelihood glueType="Double">-275502.147654</logLikelihood>
+            <distalLength glueType="Double">1.0E-6</distalLength>
+            <pendantLength glueType="Double">0.035293</pendantLength>
+        </singlePlacement>
+        <singlePlacement glueType="Object[]">
+            <placementIndex glueType="Integer">3</placementIndex>
+            <edgeIndex glueType="Integer">201</edgeIndex>
+            <likeWeightRatio glueType="Double">0.023555</likeWeightRatio>
+            <logLikelihood glueType="Double">-275502.161075</logLikelihood>
+            <distalLength glueType="Double">1.0E-6</distalLength>
+            <pendantLength glueType="Double">0.035326</pendantLength>
+        </singlePlacement>
+    </singleQueryResult>
+    <singleQueryResult glueType="Object[]">
+        <queryName glueType="String">ncbi-curated/JF819632</queryName>
+        <singlePlacement glueType="Object[]">
+            <placementIndex glueType="Integer">1</placementIndex>
+            <edgeIndex glueType="Integer">205</edgeIndex>
+            <likeWeightRatio glueType="Double">0.852444</likeWeightRatio>
+            <logLikelihood glueType="Double">-275490.223778</logLikelihood>
+            <distalLength glueType="Double">0.025209</distalLength>
+            <pendantLength glueType="Double">0.027736</pendantLength>
+        </singlePlacement>
+        <singlePlacement glueType="Object[]">
+            <placementIndex glueType="Integer">2</placementIndex>
+            <edgeIndex glueType="Integer">204</edgeIndex>
+            <likeWeightRatio glueType="Double">0.074244</likeWeightRatio>
+            <logLikelihood glueType="Double">-275492.664523</logLikelihood>
+            <distalLength glueType="Double">1.0E-6</distalLength>
+            <pendantLength glueType="Double">0.031067</pendantLength>
+        </singlePlacement>
+        <singlePlacement glueType="Object[]">
+            <placementIndex glueType="Integer">3</placementIndex>
+            <edgeIndex glueType="Integer">201</edgeIndex>
+            <likeWeightRatio glueType="Double">0.073311</likeWeightRatio>
+            <logLikelihood glueType="Double">-275492.677173</logLikelihood>
+            <distalLength glueType="Double">1.0E-6</distalLength>
+            <pendantLength glueType="Double">0.031095</pendantLength>
+        </singlePlacement>
+    </singleQueryResult>
+    <singleQueryResult glueType="Object[]">
+        <queryName glueType="String">ncbi-curated/JF819633</queryName>
+        <singlePlacement glueType="Object[]">
+            <placementIndex glueType="Integer">1</placementIndex>
+            <edgeIndex glueType="Integer">205</edgeIndex>
+            <likeWeightRatio glueType="Double">0.852444</likeWeightRatio>
+            <logLikelihood glueType="Double">-275490.223778</logLikelihood>
+            <distalLength glueType="Double">0.025209</distalLength>
+            <pendantLength glueType="Double">0.027736</pendantLength>
+        </singlePlacement>
+        <singlePlacement glueType="Object[]">
+            <placementIndex glueType="Integer">2</placementIndex>
+            <edgeIndex glueType="Integer">204</edgeIndex>
+            <likeWeightRatio glueType="Double">0.074244</likeWeightRatio>
+            <logLikelihood glueType="Double">-275492.664523</logLikelihood>
+            <distalLength glueType="Double">1.0E-6</distalLength>
+            <pendantLength glueType="Double">0.031067</pendantLength>
+        </singlePlacement>
+        <singlePlacement glueType="Object[]">
+            <placementIndex glueType="Integer">3</placementIndex>
+            <edgeIndex glueType="Integer">201</edgeIndex>
+            <likeWeightRatio glueType="Double">0.073311</likeWeightRatio>
+            <logLikelihood glueType="Double">-275492.677173</logLikelihood>
+            <distalLength glueType="Double">1.0E-6</distalLength>
+            <pendantLength glueType="Double">0.031095</pendantLength>
+        </singlePlacement>
+    </singleQueryResult>
+    <singleQueryResult glueType="Object[]">
+        <queryName glueType="String">ncbi-curated/JF819634</queryName>
+        <singlePlacement glueType="Object[]">
+            <placementIndex glueType="Integer">1</placementIndex>
+            <edgeIndex glueType="Integer">205</edgeIndex>
+            <likeWeightRatio glueType="Double">0.852444</likeWeightRatio>
+            <logLikelihood glueType="Double">-275490.223778</logLikelihood>
+            <distalLength glueType="Double">0.025209</distalLength>
+            <pendantLength glueType="Double">0.027736</pendantLength>
+        </singlePlacement>
+        <singlePlacement glueType="Object[]">
+            <placementIndex glueType="Integer">2</placementIndex>
+            <edgeIndex glueType="Integer">204</edgeIndex>
+            <likeWeightRatio glueType="Double">0.074244</likeWeightRatio>
+            <logLikelihood glueType="Double">-275492.664523</logLikelihood>
+            <distalLength glueType="Double">1.0E-6</distalLength>
+            <pendantLength glueType="Double">0.031067</pendantLength>
+        </singlePlacement>
+        <singlePlacement glueType="Object[]">
+            <placementIndex glueType="Integer">3</placementIndex>
+            <edgeIndex glueType="Integer">201</edgeIndex>
+            <likeWeightRatio glueType="Double">0.073311</likeWeightRatio>
+            <logLikelihood glueType="Double">-275492.677173</logLikelihood>
+            <distalLength glueType="Double">1.0E-6</distalLength>
+            <pendantLength glueType="Double">0.031095</pendantLength>
+        </singlePlacement>
+    </singleQueryResult>
+    <singleQueryResult glueType="Object[]">
+        <queryName glueType="String">ncbi-curated/JF819635</queryName>
+        <singlePlacement glueType="Object[]">
+            <placementIndex glueType="Integer">1</placementIndex>
+            <edgeIndex glueType="Integer">224</edgeIndex>
+            <likeWeightRatio glueType="Double">0.656547</likeWeightRatio>
+            <logLikelihood glueType="Double">-275433.170514</logLikelihood>
+            <distalLength glueType="Double">0.01127</distalLength>
+            <pendantLength glueType="Double">0.003511</pendantLength>
+        </singlePlacement>
+        <singlePlacement glueType="Object[]">
+            <placementIndex glueType="Integer">2</placementIndex>
+            <edgeIndex glueType="Integer">215</edgeIndex>
+            <likeWeightRatio glueType="Double">0.113535</likeWeightRatio>
+            <logLikelihood glueType="Double">-275434.925399</logLikelihood>
+            <distalLength glueType="Double">0.002984</distalLength>
+            <pendantLength glueType="Double">0.003741</pendantLength>
+        </singlePlacement>
+        <singlePlacement glueType="Object[]">
+            <placementIndex glueType="Integer">3</placementIndex>
+            <edgeIndex glueType="Integer">232</edgeIndex>
+            <likeWeightRatio glueType="Double">0.016856</likeWeightRatio>
+            <logLikelihood glueType="Double">-275436.832799</logLikelihood>
+            <distalLength glueType="Double">0.0</distalLength>
+            <pendantLength glueType="Double">0.005292</pendantLength>
+        </singlePlacement>
+        <singlePlacement glueType="Object[]">
+            <placementIndex glueType="Integer">4</placementIndex>
+            <edgeIndex glueType="Integer">218</edgeIndex>
+            <likeWeightRatio glueType="Double">0.016824</likeWeightRatio>
+            <logLikelihood glueType="Double">-275436.834672</logLikelihood>
+            <distalLength glueType="Double">1.0E-6</distalLength>
+            <pendantLength glueType="Double">0.005297</pendantLength>
+        </singlePlacement>
+        <singlePlacement glueType="Object[]">
+            <placementIndex glueType="Integer">5</placementIndex>
+            <edgeIndex glueType="Integer">233</edgeIndex>
+            <likeWeightRatio glueType="Double">0.016811</likeWeightRatio>
+            <logLikelihood glueType="Double">-275436.835479</logLikelihood>
+            <distalLength glueType="Double">0.019011</distalLength>
+            <pendantLength glueType="Double">0.005295</pendantLength>
+        </singlePlacement>
+        <singlePlacement glueType="Object[]">
+            <placementIndex glueType="Integer">6</placementIndex>
+            <edgeIndex glueType="Integer">231</edgeIndex>
+            <likeWeightRatio glueType="Double">0.016547</likeWeightRatio>
+            <logLikelihood glueType="Double">-275436.851328</logLikelihood>
+            <distalLength glueType="Double">1.35E-4</distalLength>
+            <pendantLength glueType="Double">0.005329</pendantLength>
+        </singlePlacement>
+        <singlePlacement glueType="Object[]">
+            <placementIndex glueType="Integer">7</placementIndex>
+            <edgeIndex glueType="Integer">226</edgeIndex>
+            <likeWeightRatio glueType="Double">0.014825</likeWeightRatio>
+            <logLikelihood glueType="Double">-275436.961219</logLikelihood>
+            <distalLength glueType="Double">2.33E-4</distalLength>
+            <pendantLength glueType="Double">0.005527</pendantLength>
+        </singlePlacement>
+    </singleQueryResult>
+    <singleQueryResult glueType="Object[]">
+        <queryName glueType="String">ncbi-curated/JF819636</queryName>
+        <singlePlacement glueType="Object[]">
+            <placementIndex glueType="Integer">1</placementIndex>
+            <edgeIndex glueType="Integer">205</edgeIndex>
+            <likeWeightRatio glueType="Double">0.83935</likeWeightRatio>
+            <logLikelihood glueType="Double">-275493.269917</logLikelihood>
+            <distalLength glueType="Double">0.025266</distalLength>
+            <pendantLength glueType="Double">0.0301</pendantLength>
+        </singlePlacement>
+        <singlePlacement glueType="Object[]">
+            <placementIndex glueType="Integer">2</placementIndex>
+            <edgeIndex glueType="Integer">204</edgeIndex>
+            <likeWeightRatio glueType="Double">0.080797</likeWeightRatio>
+            <logLikelihood glueType="Double">-275495.610601</logLikelihood>
+            <distalLength glueType="Double">1.0E-6</distalLength>
+            <pendantLength glueType="Double">0.033435</pendantLength>
+        </singlePlacement>
+        <singlePlacement glueType="Object[]">
+            <placementIndex glueType="Integer">3</placementIndex>
+            <edgeIndex glueType="Integer">201</edgeIndex>
+            <likeWeightRatio glueType="Double">0.079853</likeWeightRatio>
+            <logLikelihood glueType="Double">-275495.622361</logLikelihood>
+            <distalLength glueType="Double">1.0E-6</distalLength>
+            <pendantLength glueType="Double">0.033462</pendantLength>
+        </singlePlacement>
+    </singleQueryResult>
+    <singleQueryResult glueType="Object[]">
+        <queryName glueType="String">ncbi-curated/JF819637</queryName>
+        <singlePlacement glueType="Object[]">
+            <placementIndex glueType="Integer">1</placementIndex>
+            <edgeIndex glueType="Integer">205</edgeIndex>
+            <likeWeightRatio glueType="Double">0.852444</likeWeightRatio>
+            <logLikelihood glueType="Double">-275490.223778</logLikelihood>
+            <distalLength glueType="Double">0.025209</distalLength>
+            <pendantLength glueType="Double">0.027736</pendantLength>
+        </singlePlacement>
+        <singlePlacement glueType="Object[]">
+            <placementIndex glueType="Integer">2</placementIndex>
+            <edgeIndex glueType="Integer">204</edgeIndex>
+            <likeWeightRatio glueType="Double">0.074244</likeWeightRatio>
+            <logLikelihood glueType="Double">-275492.664523</logLikelihood>
+            <distalLength glueType="Double">1.0E-6</distalLength>
+            <pendantLength glueType="Double">0.031067</pendantLength>
+        </singlePlacement>
+        <singlePlacement glueType="Object[]">
+            <placementIndex glueType="Integer">3</placementIndex>
+            <edgeIndex glueType="Integer">201</edgeIndex>
+            <likeWeightRatio glueType="Double">0.073311</likeWeightRatio>
+            <logLikelihood glueType="Double">-275492.677173</logLikelihood>
+            <distalLength glueType="Double">1.0E-6</distalLength>
+            <pendantLength glueType="Double">0.031095</pendantLength>
+        </singlePlacement>
+    </singleQueryResult>
+    <singleQueryResult glueType="Object[]">
+        <queryName glueType="String">ncbi-curated/JF819638</queryName>
+        <singlePlacement glueType="Object[]">
+            <placementIndex glueType="Integer">1</placementIndex>
+            <edgeIndex glueType="Integer">219</edgeIndex>
+            <likeWeightRatio glueType="Double">0.999361</likeWeightRatio>
+            <logLikelihood glueType="Double">-275448.471859</logLikelihood>
+            <distalLength glueType="Double">0.005745</distalLength>
+            <pendantLength glueType="Double">0.007482</pendantLength>
+        </singlePlacement>
+    </singleQueryResult>
+    <singleQueryResult glueType="Object[]">
+        <queryName glueType="String">ncbi-curated/JF819639</queryName>
+        <singlePlacement glueType="Object[]">
+            <placementIndex glueType="Integer">1</placementIndex>
+            <edgeIndex glueType="Integer">219</edgeIndex>
+            <likeWeightRatio glueType="Double">0.999814</likeWeightRatio>
+            <logLikelihood glueType="Double">-275434.44194</logLikelihood>
+            <distalLength glueType="Double">0.005745</distalLength>
+            <pendantLength glueType="Double">0.003656</pendantLength>
+        </singlePlacement>
+    </singleQueryResult>
+    <singleQueryResult glueType="Object[]">
+        <queryName glueType="String">ncbi-curated/JF819640</queryName>
+        <singlePlacement glueType="Object[]">
+            <placementIndex glueType="Integer">1</placementIndex>
+            <edgeIndex glueType="Integer">205</edgeIndex>
+            <likeWeightRatio glueType="Double">0.835668</likeWeightRatio>
+            <logLikelihood glueType="Double">-275498.253919</logLikelihood>
+            <distalLength glueType="Double">0.025296</distalLength>
+            <pendantLength glueType="Double">0.03057</pendantLength>
+        </singlePlacement>
+        <singlePlacement glueType="Object[]">
+            <placementIndex glueType="Integer">2</placementIndex>
+            <edgeIndex glueType="Integer">204</edgeIndex>
+            <likeWeightRatio glueType="Double">0.082641</likeWeightRatio>
+            <logLikelihood glueType="Double">-275500.567643</logLikelihood>
+            <distalLength glueType="Double">1.0E-6</distalLength>
+            <pendantLength glueType="Double">0.033919</pendantLength>
+        </singlePlacement>
+        <singlePlacement glueType="Object[]">
+            <placementIndex glueType="Integer">3</placementIndex>
+            <edgeIndex glueType="Integer">201</edgeIndex>
+            <likeWeightRatio glueType="Double">0.08169</likeWeightRatio>
+            <logLikelihood glueType="Double">-275500.579213</logLikelihood>
+            <distalLength glueType="Double">1.0E-6</distalLength>
+            <pendantLength glueType="Double">0.033946</pendantLength>
+        </singlePlacement>
+    </singleQueryResult>
+    <singleQueryResult glueType="Object[]">
+        <queryName glueType="String">ncbi-curated/JF819641</queryName>
+        <singlePlacement glueType="Object[]">
+            <placementIndex glueType="Integer">1</placementIndex>
+            <edgeIndex glueType="Integer">219</edgeIndex>
+            <likeWeightRatio glueType="Double">0.918565</likeWeightRatio>
+            <logLikelihood glueType="Double">-275439.948138</logLikelihood>
+            <distalLength glueType="Double">0.005745</distalLength>
+            <pendantLength glueType="Double">0.005517</pendantLength>
+        </singlePlacement>
+        <singlePlacement glueType="Object[]">
+            <placementIndex glueType="Integer">2</placementIndex>
+            <edgeIndex glueType="Integer">224</edgeIndex>
+            <likeWeightRatio glueType="Double">0.081292</likeWeightRatio>
+            <logLikelihood glueType="Double">-275442.372899</logLikelihood>
+            <distalLength glueType="Double">0.019808</distalLength>
+            <pendantLength glueType="Double">0.007279</pendantLength>
+        </singlePlacement>
+    </singleQueryResult>
+</maxLikelihoodPlacerResult>
