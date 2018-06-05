@@ -5,7 +5,7 @@
   <!-- publication date range such as 1900/01/01:2016/12/31[PDAT] may be used to limit incoming update -->
   <!-- sequence length range may be used: 500:20000[SLEN] -->
   <eSearchTerm>
-  	"Rabies virus"[Organism] AND 1900/01/01:2012/12/31[MDAT]</eSearchTerm>
+  	"Rabies virus"[Organism]</eSearchTerm>
   <sequenceIdField>PRIMARY_ACCESSION</sequenceIdField>
   <maxDownloaded>200000</maxDownloaded>
   <eFetchBatchSize>500</eFetchBatchSize>
