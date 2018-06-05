@@ -79,7 +79,7 @@ task deployRabvGlueDbToGlueHomeAWS(dependsOn: 'zipRabvGlueDB') {
 	  ssh.run {
 	    session(remotes.gluehome_aws) {
 	 	  put from: '/tmp/rabv_glue.sql.gz', into: '/tmp/rabv_glue.sql.gz'
-	      execute 'echo "drop database RABV_GLUE; create database RABV_GLUE character set UTF8;" | mysql -u rabvglue --password=rabvglue RABV_GLUE'
+	      execute 'echo "DROP DATABASE IF EXISTS RABV_GLUE; create database RABV_GLUE character set UTF8;" | mysql -u rabvglue --password=rabvglue RABV_GLUE'
 	      execute 'gunzip -c /tmp/rabv_glue.sql.gz | mysql -u rabvglue --password=rabvglue RABV_GLUE'
 	      execute 'rm /tmp/rabv_glue.sql.gz'
 	    }
