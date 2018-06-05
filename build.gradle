@@ -1,7 +1,7 @@
 apply plugin: 'pl.allegro.tech.build.axion-release'
 apply plugin: 'org.hidetake.ssh'
 
-project.ext.set("glueVersion", "1.0.1")
+project.ext.set("glueVersion", "1.0.2")
 
 project.version = scmVersion.version
 
@@ -50,38 +50,38 @@ task copyGluetoolsJar(type: Copy) {
 
 def glueConfigFile = System.getProperty("user.name").equals('joshsinger') ? 'local-gluetools-config.xml' : 'remote-gluetools-config.xml'
 
-task ncbiHcvUpdate(type: JavaExec, dependsOn: 'copyGluetoolsJar') {
+task ncbiRabvUpdate(type: JavaExec, dependsOn: 'copyGluetoolsJar') {
 	classpath "build/runtimeJars/gluetools-core.jar"
 	main 'uk.ac.gla.cvr.gluetools.core.console.Console'
 	jvmArgs '-Xmx10000m'
-	args '-c', glueConfigFile, '-i', 'run', 'file', 'ncbiHcvUpdate.glue'
+	args '-c', glueConfigFile, '-i', 'run', 'file', 'ncbiRabvUpdate.glue'
 }
 
-task ncbiHcvProjectBuild(type: JavaExec, dependsOn: 'copyGluetoolsJar') {
+task ncbiRabvProjectBuild(type: JavaExec, dependsOn: 'copyGluetoolsJar') {
 	classpath "build/runtimeJars/gluetools-core.jar"
 	main 'uk.ac.gla.cvr.gluetools.core.console.Console'
 	jvmArgs '-Xmx10000m'
-	args '-c', glueConfigFile, '-i', 'run', 'file', 'ncbiHcvProjectBuild.glue'
+	args '-c', glueConfigFile, '-i', 'run', 'file', 'ncbiRabvProjectBuild.glue'
 }
 
-task dumpHcvGlueDB(type: Exec, dependsOn: 'updateHcvGlueDB') {
-	standardOutput = new FileOutputStream(new File('/tmp/hcv_glue.sql'))
-	commandLine '/usr/local/mysql/bin/mysqldump', '-u', 'hcvglue', '--password=hcvglue', 'HCV_GLUE'
+task dumpRabvGlueDB(type: Exec, dependsOn: 'updateRabvGlueDB') {
+	standardOutput = new FileOutputStream(new File('/tmp/rabv_glue.sql'))
+	commandLine '/usr/local/mysql/bin/mysqldump', '-u', 'rabvglue', '--password=rabvglue', 'RABV_GLUE'
 }
 
-task zipHcvGlueDB(type: Exec, dependsOn: 'dumpHcvGlueDB') {
-	commandLine '/usr/bin/gzip', '-f', '/tmp/hcv_glue.sql'
+task zipRabvGlueDB(type: Exec, dependsOn: 'dumpRabvGlueDB') {
+	commandLine '/usr/bin/gzip', '-f', '/tmp/rabv_glue.sql'
 }
 
-task deployHcvGlueDbToGlueHomeAWS(dependsOn: 'zipHcvGlueDB') {
+task deployRabvGlueDbToGlueHomeAWS(dependsOn: 'zipRabvGlueDB') {
   doLast {
-	  println "Uploading HCV-GLUE DB"
+	  println "Uploading RABV-GLUE DB"
 	  ssh.run {
 	    session(remotes.gluehome_aws) {
-	 	  put from: '/tmp/hcv_glue.sql.gz', into: '/tmp/hcv_glue.sql.gz'
-	      execute 'echo "drop database HCV_GLUE; create database HCV_GLUE character set UTF8;" | mysql -u hcvglue --password=hcvglue HCV_GLUE'
-	      execute 'gunzip -c /tmp/hcv_glue.sql.gz | mysql -u hcvglue --password=hcvglue HCV_GLUE'
-	      execute 'rm /tmp/hcv_glue.sql.gz'
+	 	  put from: '/tmp/rabv_glue.sql.gz', into: '/tmp/rabv_glue.sql.gz'
+	      execute 'echo "drop database RABV_GLUE; create database RABV_GLUE character set UTF8;" | mysql -u rabvglue --password=rabvglue RABV_GLUE'
+	      execute 'gunzip -c /tmp/rabv_glue.sql.gz | mysql -u rabvglue --password=rabvglue RABV_GLUE'
+	      execute 'rm /tmp/rabv_glue.sql.gz'
 	    }
 	  }
   }
@@ -91,7 +91,7 @@ def scmCustomKey = System.getProperty("user.name").equals('joshsinger') ? '/User
 
 scmVersion {
 	hooks {
-        pre 'fileUpdate', [file: 'glue/ncbiHcvExtensionSettings.glue', pattern: {v, c -> /set extension-setting ncbi_hcv extension-version $v/}, replacement: {v, c -> "set extension-setting ncbi_hcv extension-version $v"}]
+        pre 'fileUpdate', [file: 'glue/ncbiRabvExtensionSettings.glue', pattern: {v, c -> /set extension-setting ncbi_rabv extension-version $v/}, replacement: {v, c -> "set extension-setting ncbi_rabv extension-version $v"}]
 		pre 'commit', {v, p -> "Release version $v"}
     }
 
@@ -101,7 +101,7 @@ scmVersion {
 	        customKey = file(scmCustomKey)
 	    }
 	    tag {
-	        prefix = 'NCBI-HCV-GLUE'
+	        prefix = 'NCBI-RABV-GLUE'
 	    }
     }
 }
