@@ -2,7 +2,7 @@ function syncCurated() {
 	glue.log("INFO", "Synchronizing source "+source.name+" with NCBI...");
 	var syncResults;
 	glue.inMode("module/"+modules.ncbiImporter, function() {
-		syncResults = glue.command(["sync", "--detailed"], {convertTableToObjects:true});
+		syncResults = glue.tableToObjects(glue.command(["sync", "--detailed"]));
 		glue.log("FINEST", "NCBI syncronization report", syncResults);
 		glue.log("INFO", "Synchronization complete");
 	});
@@ -31,7 +31,7 @@ function pad(num, size) {
 
 function placeCuratedAll() {
 	glue.log("INFO", "Deleting files in placement path "+placement.path);
-	var placementPathFiles = glue.command(["file-util", "list-files", "--directory", placement.path], {convertTableToObjects:true});
+	var placementPathFiles = glue.tableToObjects(glue.command(["file-util", "list-files", "--directory", placement.path]));
 	_.each(placementPathFiles, function(placementPathFile) {
 		glue.command(["file-util", "delete-file", placement.path+"/"+placementPathFile.fileName]);
 	});
@@ -42,7 +42,7 @@ function placeCuratedAll() {
 }
 
 function placeCuratedIncoming() {
-	var placementPathFiles = glue.command(["file-util", "list-files", "--directory", placement.path], {convertTableToObjects:true});
+	var placementPathFiles = glue.tableToObjects(glue.command(["file-util", "list-files", "--directory", placement.path]));
 	var placementFileNames = _.map(placementPathFiles, function(placementPathFile) {return placementPathFile.fileName;});
 	var fileSuffix = 1;
 	while(true) {
@@ -80,16 +80,18 @@ function placeCurated(whereClause, fileSuffix) {
 
 
 function genotypeCurated() {
-	var placementPathFiles = glue.command(["file-util", "list-files", "--directory", placement.path], {convertTableToObjects:true});
+	var placementPathFiles = glue.tableToObjects(glue.command(["file-util", "list-files", "--directory", placement.path]));
+	
+	var alignmentsToRecompute = [];
+	
 	_.each(placementPathFiles, function(placementPathFile) {
 		glue.log("INFO", "Computing genotype results for placement file "+placementPathFile.fileName);
 		var batchGenotyperResults;
 		glue.inMode("module/"+modules.genotyper, function() {
-			batchGenotyperResults = glue.command(
+			batchGenotyperResults = glue.tableToObjects(glue.command(
 					["genotype", "placer-result", 
 					 "--fileName", placement.path+"/"+placementPathFile.fileName, 
-					 "--detailLevel", "HIGH"], 
-					{convertTableToObjects:true});
+					 "--detailLevel", "HIGH"]));
 		});
 		glue.log("INFO", "Assigning genotype metadata for "+batchGenotyperResults.length+" genotyping results from placement file "+placementPathFile.fileName);
 		var batchSize = 500;
@@ -99,49 +101,67 @@ function genotypeCurated() {
 			var sourceName = queryBits[0];
 			var sequenceID = queryBits[1];
 
-			if(genotyperResult.minor_cladeFinalClade != null) {
-				targetAlignmentName = genotyperResult.minor_cladeFinalClade;
-			} else if(genotyperResult.minor_cladeFinalClade != null) {
-				targetAlignmentName = genotyperResult.major_cladeFinalClade;
-			} else {
-				targetAlignmentName = "AL_MASTER";
-			}
-			
-			glue.inMode("alignment/"+targetAlignmentName, function() {
-				glue.command(["add", "member", sourceName, sequenceID]);
-			});
-			
-			glue.command(["compute", "alignment", targetAlignmentName, "rabvCompoundAligner",
-			              "--whereClause", "sequence.source.name = '"+sourceName+"' and sequence.sequenceID = '"+sequenceID+"'"]);
-
+			var excludeFromAlmtTree;
 			glue.inMode("sequence/"+sourceName+"/"+sequenceID, function() {
-					
-				var majorClade = genotyperResult.major_cladeFinalClade;
-				if(majorClade) {
-					var mjcRegex = /AL_([^_]+)/;
-					var mjcMatch = mjcRegex.exec(majorClade);
-					if(mjcMatch) {
-						glue.command(["set", "field", "--noCommit", "major_clade", mjcMatch[1]]);
-					}
-				}
-				var minorClade = genotyperResult.minor_cladeFinalClade;
-				if(minorClade) {
-					var mncRegex = /AL_[^_]+_([^_]+)/;
-					var mncMatch = mncRegex.exec(minorClade);
-					if(mncMatch) {
-						glue.command(["set", "field", "--noCommit", "minor_clade", mncMatch[1]]);
-					}
-				}
+				excludeFromAlmtTree = glue.command(["show", "property", "exclude_from_almt_tree"]).propertyValueResult.value;
 			});
-			if(numUpdates % batchSize == 0) {
-				glue.command("commit");
-				glue.command("new-context");
-				glue.log("FINE", "Major/minor clade assigned for "+numUpdates+" sequences.");
+			
+			if(excludeFromAlmtTree == "true") {
+				glue.log("FINEST", "Sequence "+sourceName+"/"+sequenceID+" excluded from alignment tree.");
+			} else {
+				if(genotyperResult.minor_cladeFinalClade != null) {
+					targetAlignmentName = genotyperResult.minor_cladeFinalClade;
+				} else if(genotyperResult.minor_cladeFinalClade != null) {
+					targetAlignmentName = genotyperResult.major_cladeFinalClade;
+				} else {
+					targetAlignmentName = "AL_MASTER";
+				}
+
+				glue.inMode("alignment/"+targetAlignmentName, function() {
+					glue.command(["add", "member", sourceName, sequenceID]);
+				});
+
+				alignmentsToRecompute.push(targetAlignmentName);
+
+				glue.inMode("sequence/"+sourceName+"/"+sequenceID, function() {
+
+					var majorClade = genotyperResult.major_cladeFinalClade;
+					if(majorClade) {
+						var mjcRegex = /AL_([^_]+)/;
+						var mjcMatch = mjcRegex.exec(majorClade);
+						if(mjcMatch) {
+							glue.command(["set", "field", "--noCommit", "major_clade", mjcMatch[1]]);
+						}
+					}
+					var minorClade = genotyperResult.minor_cladeFinalClade;
+					if(minorClade) {
+						var mncRegex = /AL_[^_]+_([^_]+)/;
+						var mncMatch = mncRegex.exec(minorClade);
+						if(mncMatch) {
+							glue.command(["set", "field", "--noCommit", "minor_clade", mncMatch[1]]);
+						}
+					}
+				});
+				if(numUpdates % batchSize == 0) {
+					glue.command("commit");
+					glue.command("new-context");
+					glue.log("FINE", "Major/minor clade assigned for "+numUpdates+" sequences.");
+				}
+				numUpdates++;
 			}
-			numUpdates++;
 		});
 		glue.command("commit");
 		glue.command("new-context");
 		glue.log("FINE", "Major/minor clade assigned for "+numUpdates+" sequences.");
 	});
+	
+	alignmentsToRecompute = _.uniq(alignmentsToRecompute);
+	glue.log("FINE", "Alignments to recompute: ", alignmentsToRecompute);
+	
+	_.each(alignmentsToRecompute, function(alignmentName) {
+		glue.log("FINE", "Recomputing constrained alignment "+alignmentName);
+		glue.command(["compute", "alignment", alignmentName, "rabvCompoundAligner",
+		              "--whereClause", "sequence.source.name = 'ncbi-curated'"]);
+	});
+	
 }
