@@ -85,6 +85,9 @@ function genotypeCurated() {
 	var alignmentsToRecompute = [];
 	
 	_.each(placementPathFiles, function(placementPathFile) {
+		if(placementPathFile.indexOf(".xml") < 0) {
+			return;
+		}
 		glue.log("INFO", "Computing genotype results for placement file "+placementPathFile.fileName);
 		var batchGenotyperResults;
 		glue.inMode("module/"+modules.genotyper, function() {
