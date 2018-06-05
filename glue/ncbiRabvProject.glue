@@ -10,9 +10,19 @@ project rabv
   
   module rabvGenbankXmlPopulator populate -w "source.name = 'ncbi-curated'"
 
+  multi-set field sequence -w "patent_related = null" patent_related false
+
   # update collection year bounds
   module rabvCollectionBoundsPopulator populate -w "source.name = 'ncbi-curated'"
   
+  multi-set field sequence -a exclude_from_almt_tree false
+  multi-set field sequence -w "patent_related = true" exclude_from_almt_tree true
+  multi-set field sequence -w "gb_length < 200" exclude_from_almt_tree true
+  
+  # for each non-excluded curated sequence, determine the major/minor clade from the placement on 
+  # disk, set metadata accordingly, add to the appropriate alignment tree node, 
+  # then recompute the constrained alignment at that node.
+
   module ncbiRabvUpdateCuratedSequences invoke-function genotypeCurated
   
   module rabvFeaturePresenceRecorder 
