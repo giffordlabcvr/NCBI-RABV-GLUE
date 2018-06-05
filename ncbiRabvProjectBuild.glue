@@ -14,5 +14,7 @@ project rabv
 run file glue/ncbiRabvProject.glue
 
 project rabv
+
   multi-set field sequence -w "source.name = 'ncbi-curated'" ncbi_incoming false
-  exit 
+
+  exit

@@ -1,16 +1,24 @@
-# this file expects the core RABV project and NCBI extension to be in place,
-# it synchronizes the curated set, (both live and on disk) with NCBI
+# this file expects the core RABV project and NCBI extension to be in place.
+# by the end of the script, new sequence files and placements have been added on disk
+# so that next time the whole thing is rebuilt they will be included.
 
 project rabv
 
+  # synchronize ncbi-curated live source and disk files with NCBI database
   module ncbiRabvUpdateCuratedSequences
-	# synchronize ncbi-curated live source and disk files with NCBI database
   	invoke-function syncCurated
     exit
 
+  # mark new sequences as "incoming"
   multi-set field sequence -w "source.name = 'ncbi-curated' and ncbi_incoming = null" ncbi_incoming true
 
+  # create placements for the incoming sequences.
+  module ncbiRabvUpdateCuratedSequences
+    invoke-function placeCuratedIncoming
+    exit
+
   exit
+
 
 project rabv
   multi-set field sequence -w "source.name = 'ncbi-curated'" ncbi_incoming false
