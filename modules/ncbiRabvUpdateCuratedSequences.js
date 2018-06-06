@@ -114,7 +114,7 @@ function genotypeCurated() {
 			} else {
 				if(genotyperResult.minor_cladeFinalClade != null) {
 					targetAlignmentName = genotyperResult.minor_cladeFinalClade;
-				} else if(genotyperResult.minor_cladeFinalClade != null) {
+				} else if(genotyperResult.major_cladeFinalClade != null) {
 					targetAlignmentName = genotyperResult.major_cladeFinalClade;
 				} else {
 					targetAlignmentName = "AL_MASTER";
