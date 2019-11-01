@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+
+    <GBSeq_locus>MK791207</GBSeq_locus>
+    <GBSeq_length>1346</GBSeq_length>
+    <GBSeq_strandedness>single</GBSeq_strandedness>
+    <GBSeq_moltype>cRNA</GBSeq_moltype>
+    <GBSeq_topology>linear</GBSeq_topology>
+    <GBSeq_division>VRL</GBSeq_division>
+    <GBSeq_update-date>22-OCT-2019</GBSeq_update-date>
+    <GBSeq_create-date>22-OCT-2019</GBSeq_create-date>
+    <GBSeq_definition>Rabies lyssavirus isolate LRBR0745-17 nucleoprotein gene, partial cds</GBSeq_definition>
+    <GBSeq_primary-accession>MK791207</GBSeq_primary-accession>
+    <GBSeq_accession-version>MK791207.1</GBSeq_accession-version>
+    <GBSeq_other-seqids>
+      <GBSeqid>gb|MK791207.1|</GBSeqid>
+      <GBSeqid>gi|1766751035</GBSeqid>
+    </GBSeq_other-seqids>
+    <GBSeq_source>Rabies lyssavirus</GBSeq_source>
+    <GBSeq_organism>Rabies lyssavirus</GBSeq_organism>
+    <GBSeq_taxonomy>Viruses; Riboviria; Negarnaviricota; Haploviricotina; Monjiviricetes; Mononegavirales; Rhabdoviridae; Lyssavirus</GBSeq_taxonomy>
+    <GBSeq_references>
+      <GBReference>
+        <GBReference_reference>1</GBReference_reference>
+        <GBReference_position>1..1346</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Streicker,D.G.</GBAuthor>
+          <GBAuthor>Fallas Gonzalez,S.L.</GBAuthor>
+          <GBAuthor>Luconi,G.</GBAuthor>
+          <GBAuthor>Barrientos,R.G.</GBAuthor>
+          <GBAuthor>Leon,B.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Phylodynamics reveals extinction#recolonization dynamics underpin apparently endemic vampire bat rabies in Costa Rica</GBReference_title>
+        <GBReference_journal>Proc. Biol. Sci. 286 (1912), 20191527 (2019)</GBReference_journal>
+        <GBReference_xref>
+          <GBXref>
+            <GBXref_dbname>doi</GBXref_dbname>
+            <GBXref_id>https://doi.org/10.1098/rspb.2019.1527</GBXref_id>
+          </GBXref>
+        </GBReference_xref>
+      </GBReference>
+      <GBReference>
+        <GBReference_reference>2</GBReference_reference>
+        <GBReference_position>1..1346</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Luconi,G.</GBAuthor>
+          <GBAuthor>Chacon,I.</GBAuthor>
+          <GBAuthor>Aguilar,O.</GBAuthor>
+          <GBAuthor>Leon,B.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Direct Submission</GBReference_title>
+        <GBReference_journal>Submitted (14-APR-2019) Veterinarian Diagnostic, Servicio Nacional de Salud Animal, SENASA, 106 st, Campus Universitario Benjamin Nunez, UNA, Ulloa, Heredia 40104, Costa Rica</GBReference_journal>
+      </GBReference>
+    </GBSeq_references>
+    <GBSeq_comment>##Assembly-Data-START## ; Sequencing Technology :: Sanger dideoxy sequencing ; ##Assembly-Data-END##</GBSeq_comment>
+    <GBSeq_feature-table>
+      <GBFeature>
+        <GBFeature_key>source</GBFeature_key>
+        <GBFeature_location>1..1346</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>1346</GBInterval_to>
+            <GBInterval_accession>MK791207.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>organism</GBQualifier_name>
+            <GBQualifier_value>Rabies lyssavirus</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>mol_type</GBQualifier_name>
+            <GBQualifier_value>viral cRNA</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>isolate</GBQualifier_name>
+            <GBQualifier_value>LRBR0745-17</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>isolation_source</GBQualifier_name>
+            <GBQualifier_value>brain</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>host</GBQualifier_name>
+            <GBQualifier_value>Desmodus rotundus</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>taxon:11292</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>country</GBQualifier_name>
+            <GBQualifier_value>Costa Rica</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>collection_date</GBQualifier_name>
+            <GBQualifier_value>11-Aug-2017</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>CDS</GBFeature_key>
+        <GBFeature_location>&lt;1..&gt;1346</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>1346</GBInterval_to>
+            <GBInterval_accession>MK791207.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_partial5 value="true"/>
+        <GBFeature_partial3 value="true"/>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>codon_start</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>transl_table</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>product</GBQualifier_name>
+            <GBQualifier_value>nucleoprotein</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>protein_id</GBQualifier_name>
+            <GBQualifier_value>QFQ33544.1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>translation</GBQualifier_name>
+            <GBQualifier_value>HADKIVFKVINQVVSLKPEIIVDQYEYKYPAIKDLKKPSITLGKAPDLNKAYKSILSGMNAAKLDPDDVCSYLAAAMQFFEGSCPEDWTSYGILIARKGDKITPDSLVDIRRTDVEGNWALTGGMELTRDPTVSEHASLVGLLLSLYRLSKISGQNTGNYKTNIANRIEQIFXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXEEIRRMFEPGQETAVPHSYFIHFRSLGLSGKSPYSSNAVGHVFNLIHFVGCYMGQVRSLNATVIATCAPHEMSVLGGYLGEEFFGKGTFERRFFRDEKELQEYEAAELTKAETALADDGTVNSDDEDYFSSETRSPEAVYTRIMMNGGRLKRSHIRRYVSVSSNHQTRPNSFAEFLNKTYSSD</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>gap</GBFeature_key>
+        <GBFeature_location>519..793</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>519</GBInterval_from>
+            <GBInterval_to>793</GBInterval_to>
+            <GBInterval_accession>MK791207.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>estimated_length</GBQualifier_name>
+            <GBQualifier_value>275</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+    </GBSeq_feature-table>
+    <GBSeq_sequence>catgccgacaagattgtattcaaggtcataaatcaggtggtttctctgaagcctgaaattattgtggaccaatatgagtacaagtacccggctatcaaagacctgaagaagcccagtataactttaggaaaagctcctgatttgaataaagcatacaaatcaattttatctggcatgaatgcagccaaacttgaccctgacgatgtatgctcttatctggctgccgcgatgcagttctttgagggatcatgtcctgaagactggactagctatggaatcctgatagctcggaagggagataagatcaccccggattctcttgtggacataagacgcactgatgtagaagggaattgggctctaacagggggcatggagttgacaagggaccctactgtttcagagcatgcatctctggttggccttctcttgagtttatataggttgagcaaaatctctggacagaataccggcaattacaagacaaacattgcaaatagaatagagcaaattttcgannnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnaggaagaaataagaagaatgttcgagcctgggcaagagactgctgttcctcattcctatttcattcattttcgctcattgggcttgagtgggaagtctccgtactcgtccaatgcagttggtcatgtattcaacctcattcactttgttggatgttatatgggtcaggtgagatctttaaatgcaacagtgattgcaacatgtgccccgcatgagatgtctgttcttgggggctatttgggggaggagtttttcggaaaaggaacttttgaaaggagattctttagagacgagaaggaacttcaagaatatgaggcagctgaattgacaaaagctgaaacggccctggcagatgatggaacagtcaattctgatgatgaggactacttctccagtgaaaccaggagtccagaggcagtttacacacggatcatgatgaatggaggtagactaaaaagatcacacataaggaggtatgtctcagtcagctctaatcaccaaactcgccctaattcgtttgcggagtttttaaacaaaacatactcgagtgacta</GBSeq_sequence>
+  </GBSeq>
