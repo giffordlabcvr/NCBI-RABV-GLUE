@@ -15,6 +15,10 @@ project rabv
 
   # update collection year bounds
   module rabvCollectionBoundsPopulator populate -w "source.name = 'ncbi-curated'"
+
+  # import curated 'side data'
+  run file glue/ncbiRabvImportCuratedSideData.glue
+
   
   multi-set field sequence -a exclude_from_almt_tree false
   multi-set field sequence -w "patent_related = true" exclude_from_almt_tree true
