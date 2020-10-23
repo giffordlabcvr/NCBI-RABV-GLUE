@@ -1,9 +1,9 @@
+  delete module rabvSideDataImporter
+  create module -f modules/rabvSideDataImporter.xml
 
   # Import metadata for exogenous reference sequences from tabular
-  module parvoSideDataImporter 
-    populate -f tabular/core/parvo-ncbi-refseqs-side-data.tsv
+  module rabvSideDataImporter 
+    populate -f tabular/Africa3miss.tsv
     exit
 
-  # Link to isolate table
-  run script glue/core/parvoLoadIsolateData1.js
   

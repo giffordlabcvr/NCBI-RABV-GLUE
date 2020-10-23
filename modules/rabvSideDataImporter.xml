@@ -2,6 +2,7 @@
 <textFilePopulator>
     <columnDelimiterRegex>\t</columnDelimiterRegex>
     
+
     <textFileColumn>
         <identifier>true</identifier>
         <header>sequenceID</header>
@@ -9,56 +10,53 @@
     </textFileColumn>
 
     <textFileColumn>
-        <header>virus_name</header>
-        <property>name</property>
+        <header>Lab_construct</header>
+        <property>lab_construct</property>
     </textFileColumn>
+      
 
     <textFileColumn>
-        <header>virus_full_name</header>
-        <property>full_name</property>
+        <header>Vaccine</header>
+        <property>vaccine_strain</property>
     </textFileColumn>
 
-    <textFileColumn>
-        <header>virus_subfamily</header>
-        <property>subfamily</property>
-    </textFileColumn>
-
- 
-    <textFileColumn>
-        <header>virus_genus</header>
-        <property>genus</property>
-    </textFileColumn>
 
     <textFileColumn>
-        <header>assign_clade</header>
-        <property>assign_clade</property>
+        <header>country_edit</header>
+        <property>gb_country</property>
     </textFileColumn>
+    
 
     <textFileColumn>
-        <header>assign_subclade</header>
-        <property>assign_subclade</property>
+        <header>place_edit</header>
+        <property>gb_place_sampled</property>
     </textFileColumn>
 
-    <textFileColumn>
-        <header>virus_clade_ns</header>
-        <property>clade_ns</property>
-    </textFileColumn>
 
     <textFileColumn>
-        <header>virus_subclade_ns</header>
-        <property>subclade_ns</property>
+        <header>Collection.year_edit</header>
+        <property>collection_year</property>
     </textFileColumn>
 
-    <textFileColumn>
-        <header>virus_clade_vp</header>
-        <property>clade_vp</property>
-    </textFileColumn>
 
     <textFileColumn>
-        <header>virus_subclade_vp</header>
-        <property>subclade_vp</property>
+        <header>earliest.collection_edit</header>
+        <property>earliest_collection_year</property>
     </textFileColumn>
- 
+
+
+    <textFileColumn>
+        <header>latest.collection_edit</header>
+        <property>latest_collection_year</property>
+    </textFileColumn>
+
+
+    <textFileColumn>
+        <header>pubmedID_edit</header>
+        <property>gb_pubmed_id</property>
+    </textFileColumn>
+
+
 
     <skipMissing>true</skipMissing>
 
