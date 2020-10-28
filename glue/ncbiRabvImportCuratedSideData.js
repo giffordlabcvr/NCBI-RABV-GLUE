@@ -11,25 +11,9 @@ for(var i = 0; i < infiles.length; i++) {
 		glue.log("INFO", "load result was:", loadResult);
 	});
 
-
-
 	_.each(loadResult, function(eveObj) {
 
-		var source_name = eveObj.source_name
-		glue.inMode("custom-table-row/refcon_data/"+eveObj.sequenceID, function() {
-	
-			glue.log("INFO", "Entering locus data for EVE reference:", eveObj.sequenceID);
-
-			glue.command(["set", "field", "locus_numeric_id", eveObj.locus_numeric_id]);
-			glue.command(["set", "field", "host_group_taxlevel", eveObj.host_group_taxlevel]);
-			glue.command(["set", "field", "host_group_name", eveObj.host_group_name]);
-			glue.command(["set", "field", "nearest_upstream_orf", eveObj.nearest_upstream_orf]);
-			glue.command(["set", "field", "nearest_downstream_orf", eveObj.nearest_downstream_orf]);
-			glue.command(["set", "field", "human_chr", eveObj.human_chr]);
-
-		});
-
-		glue.inMode("sequence/"+source_name+"/"+eveObj.sequenceID, function() {
+		glue.inMode("sequence/curated/"+source_name+"/"+eveObj.sequenceID, function() {
 	
 			glue.log("INFO", "Entering sequence table data for EVE reference 1:", eveObj.sequenceID);
 
