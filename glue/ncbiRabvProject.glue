@@ -17,7 +17,8 @@ project rabv
   module rabvCollectionBoundsPopulator populate -w "source.name = 'ncbi-curated'"
 
   # import curated 'side data'
-  run file glue/ncbiRabvImportCuratedSideData.glue
+  #run file glue/ncbiRabvImportCuratedSideData.glue
+  #run script glue/ncbiRabvImportCuratedSideData.js
 
   
   multi-set field sequence -a exclude_from_almt_tree false
