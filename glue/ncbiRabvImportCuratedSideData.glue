@@ -1,9 +1,0 @@
-  delete module rabvSideDataImporter
-  create module -f modules/rabvSideDataImporter.xml
-
-  # Import metadata for exogenous reference sequences from tabular
-  module rabvSideDataImporter 
-    populate -f tabular/africa/Africa3miss.tsv
-    exit
-
-  

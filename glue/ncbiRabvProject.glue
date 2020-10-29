@@ -16,8 +16,7 @@ project rabv
   # update collection year bounds
   module rabvCollectionBoundsPopulator populate -w "source.name = 'ncbi-curated'"
 
-  # import curated 'side data'
-  #run file glue/ncbiRabvImportCuratedSideData.glue
+  # Import curated 'side data'
   #run script glue/ncbiRabvImportCuratedSideData.js
 
   
