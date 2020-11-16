@@ -1,18 +1,8 @@
 apply plugin: 'pl.allegro.tech.build.axion-release'
-apply plugin: 'org.hidetake.ssh'
 
-project.ext.set("glueVersion", "1.1.51")
+project.ext.set("glueVersion", "1.1.107")
 
 project.version = scmVersion.version
-
-remotes {
-  gluehome_aws {
-    host = '52.16.113.119'
-    user = 'ubuntu'
-    identity = file('/Users/joshsinger/.ssh/gluehome-aws.pem')
-  }
-  
-}
 
 repositories {
 	mavenLocal()
@@ -48,7 +38,7 @@ task copyGluetoolsJar(type: Copy) {
     rename('gluetools-core-'+project.glueVersion+'.jar', 'gluetools-core.jar')
 }
 
-def glueConfigFile = System.getProperty("user.name").equals('joshsinger') ? 'local-gluetools-config.xml' : 'remote-gluetools-config.xml'
+def glueConfigFile = 'remote-gluetools-config.xml'
 
 task ncbiRabvUpdate(type: JavaExec, dependsOn: 'copyGluetoolsJar') {
 	classpath "build/runtimeJars/gluetools-core.jar"
@@ -73,21 +63,7 @@ task zipRabvGlueDB(type: Exec, dependsOn: 'dumpRabvGlueDB') {
 	commandLine '/usr/bin/gzip', '-f', '/tmp/rabv_glue.sql'
 }
 
-task deployRabvGlueDbToGlueHomeAWS(dependsOn: 'zipRabvGlueDB') {
-  doLast {
-	  println "Uploading RABV-GLUE DB"
-	  ssh.run {
-	    session(remotes.gluehome_aws) {
-	 	  put from: '/tmp/rabv_glue.sql.gz', into: '/tmp/rabv_glue.sql.gz'
-	      execute 'echo "DROP DATABASE IF EXISTS RABV_GLUE; create database RABV_GLUE character set UTF8;" | mysql -u rabvglue --password=rabvglue RABV_GLUE'
-	      execute 'gunzip -c /tmp/rabv_glue.sql.gz | mysql -u rabvglue --password=rabvglue RABV_GLUE'
-	      execute 'rm /tmp/rabv_glue.sql.gz'
-	    }
-	  }
-  }
-}
-
-def scmCustomKey = System.getProperty("user.name").equals('joshsinger') ? '/Users/joshsinger/.ssh/github_id_rsa' : '/opt/bitnami/apps/jenkins/jenkins_home/.ssh/github_id_rsa'
+def scmCustomKey = '/Users/evdoxiataka/.ssh/github_id_rsa'
 
 scmVersion {
 	hooks {
