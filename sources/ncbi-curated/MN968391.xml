@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+
+    <GBSeq_locus>MN968391</GBSeq_locus>
+    <GBSeq_length>1575</GBSeq_length>
+    <GBSeq_strandedness>single</GBSeq_strandedness>
+    <GBSeq_moltype>cRNA</GBSeq_moltype>
+    <GBSeq_topology>linear</GBSeq_topology>
+    <GBSeq_division>VRL</GBSeq_division>
+    <GBSeq_update-date>01-APR-2020</GBSeq_update-date>
+    <GBSeq_create-date>01-APR-2020</GBSeq_create-date>
+    <GBSeq_definition>Rabies lyssavirus isolate 584 glycoprotein (G) gene, complete cds</GBSeq_definition>
+    <GBSeq_primary-accession>MN968391</GBSeq_primary-accession>
+    <GBSeq_accession-version>MN968391.1</GBSeq_accession-version>
+    <GBSeq_other-seqids>
+      <GBSeqid>gb|MN968391.1|</GBSeqid>
+      <GBSeqid>gi|1825480763</GBSeqid>
+    </GBSeq_other-seqids>
+    <GBSeq_source>Rabies lyssavirus</GBSeq_source>
+    <GBSeq_organism>Rabies lyssavirus</GBSeq_organism>
+    <GBSeq_taxonomy>Viruses; Riboviria; Orthornavirae; Negarnaviricota; Haploviricotina; Monjiviricetes; Mononegavirales; Rhabdoviridae; Lyssavirus</GBSeq_taxonomy>
+    <GBSeq_references>
+      <GBReference>
+        <GBReference_reference>1</GBReference_reference>
+        <GBReference_position>1..1575</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Cardenas-Canales,E.M.</GBAuthor>
+          <GBAuthor>Medina,L.</GBAuthor>
+          <GBAuthor>Griesser,R.</GBAuthor>
+          <GBAuthor>Falendysz,E.</GBAuthor>
+          <GBAuthor>Gigante,C.M.</GBAuthor>
+          <GBAuthor>Greenberg,L.E.</GBAuthor>
+          <GBAuthor>Ellison,J.A.</GBAuthor>
+          <GBAuthor>Satheshkumar,P.S.</GBAuthor>
+          <GBAuthor>Amezqua,I.</GBAuthor>
+          <GBAuthor>Osorio,J.E.</GBAuthor>
+          <GBAuthor>Rocke,T.E.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Direct Submission</GBReference_title>
+        <GBReference_journal>Submitted (21-JAN-2020) Division of High Consequence Pathogens and Pathology, Centers for Disease Control and Prevention, 1600 Clifton Road, Atlanta, GA 30329, USA</GBReference_journal>
+      </GBReference>
+    </GBSeq_references>
+    <GBSeq_comment>##Assembly-Data-START## ; Assembly Method :: bwa-mem v. 0.7.12; MinKNOW v. 19; Albacore v. 2.3.0; Nanopolish v. 0.10.2 ; Coverage :: &gt;50x ; Sequencing Technology :: Oxford Nanopore MinION ; ##Assembly-Data-END##</GBSeq_comment>
+    <GBSeq_feature-table>
+      <GBFeature>
+        <GBFeature_key>source</GBFeature_key>
+        <GBFeature_location>1..1575</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>1575</GBInterval_to>
+            <GBInterval_accession>MN968391.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>organism</GBQualifier_name>
+            <GBQualifier_value>Rabies lyssavirus</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>mol_type</GBQualifier_name>
+            <GBQualifier_value>viral cRNA</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>isolate</GBQualifier_name>
+            <GBQualifier_value>584</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>isolation_source</GBQualifier_name>
+            <GBQualifier_value>brain</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>host</GBQualifier_name>
+            <GBQualifier_value>Desmodus rotundus (vampire bat)</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>taxon:11292</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>country</GBQualifier_name>
+            <GBQualifier_value>Mexico: San Luis Potosi, Catedral</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>collection_date</GBQualifier_name>
+            <GBQualifier_value>02-Aug-2018</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>gene</GBFeature_key>
+        <GBFeature_location>1..1575</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>1575</GBInterval_to>
+            <GBInterval_accession>MN968391.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>gene</GBQualifier_name>
+            <GBQualifier_value>G</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>CDS</GBFeature_key>
+        <GBFeature_location>1..1575</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>1575</GBInterval_to>
+            <GBInterval_accession>MN968391.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>gene</GBQualifier_name>
+            <GBQualifier_value>G</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>codon_start</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>transl_table</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>product</GBQualifier_name>
+            <GBQualifier_value>glycoprotein</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>protein_id</GBQualifier_name>
+            <GBQualifier_value>QIQ56240.1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>translation</GBQualifier_name>
+            <GBQualifier_value>MILQALLFVPLLISPLCLGKFPIYTIPDKLGPWSPIDIHHLSCPNNLVVEDEGCTSLSGFSYMELKVGYISAIKVNGFTCTGVVTEAETYTNFVGYVTTTFKRKHFRPIPDACRAAYNWKMAGDPRYEESLQNPYPEYHWLRTVKTTKESLIIISPSVADLDPYDKSLHSRVFPGGKCLGITVSSTYCSTNHDYTIWMPEEPRLGTSCDIFTSSKGKKASKGGKTCGFVDERGLYKSLKGACKLKLCGVLGLRLMDGTWVSIQTSDDTKWCPPDQLVNLHDFHSDEIEHLVVEELVKKREECLDALESIMTTKSVSFRRLSYLRKLVPGFGKAYTIFNKTLMEADAHYKSVRTWNEIIPSKGCLKVRERCHPPVDGVFFNGIILGPDGNVLIPEMQSSLLQQHMELLESSVIPLMHPLADPSTVFKEGDEAEDFVEVHLPDVHKQISGVDLGLPSWGKYLLMIAGGLATLVLIICSIACCRRAKRTESRRRGSGESGKKVTATPQTRKFVSSWELYKREGDARL</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+    </GBSeq_feature-table>
+    <GBSeq_sequence>atgatccttcaggcccttctttttgtgcctctcctgatctctccgttgtgtctcgggaaattccccatctacacaataccagacaagcttggtccttggagtcccatcgatatacatcacctcagctgtccaaataatttagttgtggaggacgagggatgcaccagtctatcagggttctcttacatggagctaaaggtgggatacatctctgccataaaggtgaacgggttcacttgtaccggtgttgtgacagaggctgagacctataccaactttgttggttatgtcaccacaacattcaagaggaaacattttcgccccataccggatgcatgcagggcagcatacaactggaagatggctggtgatcctagatatgaggagtctcttcaaaatccttatcctgagtaccattggttacggaccgtaaagaccactaaggagtctcttattatcatatctccgagtgtggctgatttagacccatacgacaaatcccttcattctagggtgttccctggtgggaagtgtttgggaataacggtttcttccacctactgctcaaccaaccacgattacaccatctggatgcctgaggaaccaagactcgggacatcttgcgacatttttactagcagcaaggggaaaaaggcatctaaaggaggtaaaacttgcggatttgtggatgaaaggggcttgtacaagtctctaaaaggagcctgtaaactcaagctgtgcggagttctcggacttagacttatggatggaacctgggtttcaattcaaacatcagacgacaccaaatggtgccctccggatcaactggtgaatctacatgactttcattcagacgaaatagagcatcttgtcgtagaggagttggtcaagaagagggaagagtgtctggacgcattggagtccatcatgaccaccaaatctgtaagttttagacgtctcagttacttgagaaaacttgtcccagggtttggaaaggcatacactatattcaacaagaccctgatggaggctgacgcccactacaagtcagttcggacttggaacgagatcatcccctcaaaagggtgtttgaaagtcagagagaggtgtcatcctcctgtggatggagtgttcttcaacggcataattctgggtccggacgggaacgtcctgatacctgagatgcaatcgtctctacttcaacaacatatggagctattggagtcttctgtaatccccctaatgcatcccttggcggacccatcaacagtcttcaaggaaggggatgaagcggaggacttcgttgaagttcacctcccagatgttcacaaacagatctcaggggttgaccttggtctcccgagttgggggaaatatctcctgatgattgcaggtggtctggcgacgctagtcctgataatctgctcgattgcatgctgtagaagagccaagcgaacagagtcaagaagacgaggctctggagagtcaggaaagaaggtaactgcaaccccccagactaggaaatttgtatcttcatgggagttgtacaagagggaaggcgatgccaggctgtga</GBSeq_sequence>
+  </GBSeq>
