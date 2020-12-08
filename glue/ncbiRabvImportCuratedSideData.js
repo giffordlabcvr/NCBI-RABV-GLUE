@@ -1,11 +1,8 @@
-var infiles = [ "Africa3miss.tsv" ];
-
-//var infiles = [ "Africa3miss.tsv" , "Africa2miss.tsv", 
-//"Arctic_miss.tsv", "Asian_miss.tsv", "Asian_SEA1a_miss.tsv", "Asian_SEA1b_miss.tsv", 
-//"Asian_SEA2a_miss.tsv", "Asian_SEA2b_miss.tsv", "Asian_SEA3_miss.tsv", "Asian_SEA4_miss.tsv", 
-//"CosmoAF1amiss.tsv", "CosmoAF1bmiss.tsv", "CosmoAf1cmiss.tsv", "CosmoAF4miss.tsv", 
-//"CosmoAM_miss.tsv", "CosmoE_miss.tsv", "Cosmomiss.tsv", "Ind_miss.tsv" ];
-
+var infiles = [ "Africa3miss.tsv" , "Africa2miss.tsv", 
+"Arctic_miss.tsv", "Asian_miss.tsv", "Asian_SEA1a_miss.tsv", "Asian_SEA1b_miss.tsv", 
+"Asian_SEA2a_miss.tsv", "Asian_SEA2b_miss.tsv", "Asian_SEA3_miss.tsv", "Asian_SEA4_miss.tsv", 
+"CosmoAF1amiss.tsv", "CosmoAF1bmiss.tsv", "CosmoAf1cmiss.tsv", "CosmoAF4miss.tsv", 
+"CosmoAM_miss.tsv", "CosmoE_miss.tsv", "Cosmomiss.tsv", "Ind_miss.tsv" ];
 
 
 // Get the sequence source mappings (i.e. which in ncbi-refseqs, ncbi-curated, etc)
