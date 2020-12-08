@@ -83,17 +83,17 @@ for(var i = 0; i < infiles.length; i++) {
 		    glue.log("INFO", "FIELD: hostUpdate:", hostUpdate);
 		    glue.log("INFO", "FIELD: hostCommonEdit:", hostCommonEdit);
 		    if (hostUpdate != 'unchanged') {		    	
-				glue.log("INFO", "Updating host field:", isolateObj.hostEdit);
-				glue.log("INFO", "Updating host common name field:", isolateObj.hostCommonEdit);
-				glue.command(["set", "field", "host", isolateObj.hostEdit]);				
+				glue.log("INFO", "Updating host field:", hostEdit);
+				glue.log("INFO", "Updating host common name field:", hostCommonEdit);
+				glue.command(["set", "field", "host", hostEdit]);				
 		    }
 
         	var labConstruct   = isolateObj.Lab_construct;
         	var vaccine        = isolateObj.vaccine;
  		    glue.log("INFO", "FIELD: labConstruct:", labConstruct);
 		    glue.log("INFO", "FIELD: vaccine:", vaccine);
-			//glue.command(["set", "field", "lab_construct", isolateObj.labConstruct]);				
-			//glue.command(["set", "field", "vaccine_strain", isolateObj.vaccine]);				
+			glue.command(["set", "field", "lab_construct", labConstruct]);				
+			glue.command(["set", "field", "vaccine_strain", vaccine]);				
 
         	var pubmedEdit     = isolateObj.pubmedID_edit;
         	var pubmedUpdate   = isolateObj.pubmed_update;
