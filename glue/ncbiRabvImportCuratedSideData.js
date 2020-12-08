@@ -46,7 +46,7 @@ for(var i = 0; i < infiles.length; i++) {
 		    glue.log("INFO", "FIELD: placeUpdate:", placeUpdate);
 		    if (placeUpdate != 'unchanged') {		    	
 				glue.log("INFO", "Updating place field to:", placeEdit);
-				glue.command(["set", "field", "placeEdit", placeEdit]);				
+				glue.command(["set", "field", "gb_place_sampled", placeEdit]);				
 		    }
        	
         	var collectionYearEdit   = isolateObj.collection_year_edit;
@@ -97,8 +97,8 @@ for(var i = 0; i < infiles.length; i++) {
 
         	var pubmedEdit     = isolateObj.pubmedID_edit;
         	var pubmedUpdate   = isolateObj.pubmed_update;
-		    //glue.log("INFO", "FIELD: pubmedEdit:", pubmedEdit);
-		    //glue.log("INFO", "FIELD: pubmedUpdate:", pubmedUpdate);
+		    glue.log("INFO", "FIELD: pubmedEdit:", pubmedEdit);
+		    glue.log("INFO", "FIELD: pubmedUpdate:", pubmedUpdate);
 		    if (pubmedUpdate != 'unchanged') {		    	
 				glue.log("INFO", "Updating gb_pubmed_id field:", pubmedEdit);
 				glue.command(["set", "field", "host", pubmedEdit]);				
