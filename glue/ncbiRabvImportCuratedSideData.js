@@ -92,16 +92,16 @@ for(var i = 0; i < infiles.length; i++) {
         	var vaccine        = isolateObj.vaccine;
  		    glue.log("INFO", "FIELD: labConstruct:", labConstruct);
 		    glue.log("INFO", "FIELD: vaccine:", vaccine);
-			glue.command(["set", "field", "lab_construct", labConstruct]);				
-			glue.command(["set", "field", "vaccine_strain", vaccine]);				
+			//glue.command(["set", "field", "lab_construct", labConstruct]);				
+			//glue.command(["set", "field", "vaccine_strain", vaccine]);				
 
         	var pubmedEdit     = isolateObj.pubmedID_edit;
         	var pubmedUpdate   = isolateObj.pubmed_update;
 		    //glue.log("INFO", "FIELD: pubmedEdit:", pubmedEdit);
 		    //glue.log("INFO", "FIELD: pubmedUpdate:", pubmedUpdate);
 		    if (pubmedUpdate != 'unchanged') {		    	
-				glue.log("INFO", "Updating gb_pubmed_id field:", isolateObj.pubmedEdit);
-				glue.command(["set", "field", "host", isolateObj.hostEdit]);				
+				glue.log("INFO", "Updating gb_pubmed_id field:", pubmedEdit);
+				glue.command(["set", "field", "host", pubmedEdit]);				
 		    }
 
 		});
