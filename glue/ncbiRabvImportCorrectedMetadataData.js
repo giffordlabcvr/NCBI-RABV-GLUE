@@ -14,7 +14,7 @@ for(var i = 0; i < infiles.length; i++) {
 
 	var infile = infiles[i];
 
-	// Load EVE data from tab file 
+	// Load data from tab file 
 	var loadResult;
 	glue.inMode("module/tabularUtilityTab", function() {
 		loadResult = glue.tableToObjects(glue.command(["load-tabular", "tabular/"+infile]));

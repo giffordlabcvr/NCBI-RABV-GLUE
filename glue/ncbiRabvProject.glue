@@ -11,13 +11,13 @@ project rabv
   
   module rabvGenbankXmlPopulator populate -w "source.name = 'ncbi-curated'"
 
+  # Import corrected meta-data
+  run script glue/ncbiRabvImportCorrectedMetadataData.js
+
   multi-set field sequence -w "patent_related = null" patent_related false
 
   # update collection year bounds
   module rabvCollectionBoundsPopulator populate -w "source.name = 'ncbi-curated'"
-
-  # Import curated 'side data'
-  #run script glue/ncbiRabvImportCuratedSideData.js
 
   
   multi-set field sequence -a exclude_from_almt_tree false
@@ -33,5 +33,6 @@ project rabv
   module rabvFeaturePresenceRecorder 
     record feature-presence AL_MASTER --recursive --whereClause "sequence.source.name = 'ncbi-curated'" --featureName whole_genome --descendentFeatures
     exit
-  
+ 
+
   exit
