@@ -34,5 +34,4 @@ project rabv
     record feature-presence AL_MASTER --recursive --whereClause "sequence.source.name = 'ncbi-curated'" --featureName whole_genome --descendentFeatures
     exit
  
-
   exit
