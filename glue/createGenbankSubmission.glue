@@ -1,7 +1,17 @@
+#  Delete source fasta-curated
+delete source fasta-curated
+
 # Import the FASTA formatted sequences
 import source sources/fasta-curated/
 
+# Import the metadata
 create module -f modules/rabvSideDataImporterPhillippines.xml
 module rabvSideDataImporterPhillippines populate -f tabular/genbank-submission/rabies_metadata.tsv
 
+# Genotype the sequences
+# To do
+
+# Create and run the GenBank submission module 
 create module -f modules/rabvSideDataImporterPhillippines.xml
+module rabvSubmissionGeneratorPhillippines generate-sqn -w "source.name = 'fasta-curated'" -t template.sbt -o test
+
