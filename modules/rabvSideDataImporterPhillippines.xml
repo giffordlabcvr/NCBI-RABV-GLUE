@@ -16,6 +16,12 @@
       
 
     <textFileColumn>
+        <header>collection_year</header>
+        <property>collection_year</property>
+    </textFileColumn>
+
+
+    <textFileColumn>
         <header>country</header>
         <property>gb_country</property>
     </textFileColumn>
@@ -28,20 +34,8 @@
 
 
     <textFileColumn>
-        <header>collection_year</header>
-        <property>collection_year</property>
-    </textFileColumn>
-
-
-    <textFileColumn>
         <header>sequenceID</header>
         <property>isolate</property>
-    </textFileColumn>
-
-
-    <textFileColumn>
-        <header>latest.collection_edit</header>
-        <property>latest_collection_year</property>
     </textFileColumn>
 
 

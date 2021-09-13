@@ -1,0 +1,7 @@
+# Import the FASTA formatted sequences
+import source sources/fasta-curated/
+
+create module -f modules/rabvSideDataImporterPhillippines.xml
+module rabvSideDataImporterPhillippines populate -f tabular/genbank-submission/rabies_metadata.tsv
+
+create module -f modules/rabvSideDataImporterPhillippines.xml

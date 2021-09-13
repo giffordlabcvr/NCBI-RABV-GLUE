@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<gbSubmisisonGenerator>
+
+	<assemblyGapSpecifier>
+		<lengthsKnown>true</lengthsKnown>
+		<minRunLengthForGap>50</minRunLengthForGap>
+		<linkageEvidence>align_genus</linkageEvidence>
+	</assemblyGapSpecifier>
+	
+	<structuredCommentProvider>
+		<sequencingTechnology>Illumina MiSeq</sequencingTechnology>
+		<assemblyMethod>Tanoti (unreleased v1.3)</assemblyMethod>
+	</structuredCommentProvider>
+	
+	<sourceInfoProviders>
+	
+		<staticSourceInfoProvider>
+			<sourceModifier>organism</sourceModifier>
+			<value>Rabies virus</value>
+		</staticSourceInfoProvider>
+		
+		<staticSourceInfoProvider>
+			<sourceModifier>moltype</sourceModifier>
+			<value>genomic</value>
+		</staticSourceInfoProvider>
+		
+		<staticSourceInfoProvider>
+			<sourceModifier>molecule</sourceModifier>
+			<value>rna</value>
+		</staticSourceInfoProvider>
+		
+		<freemarkerSourceInfoProvider>
+			<sourceModifier>host</sourceModifier>
+			<template>${host!""}</template>
+		</freemarkerSourceInfoProvider>
+			
+		<freemarkerSourceInfoProvider>
+			<sourceModifier>isolate</sourceModifier>
+			<template>${isolate}</template>
+		</freemarkerSourceInfoProvider>
+		
+		<freemarkerSourceInfoProvider>
+			<sourceModifier>collection-date</sourceModifier>
+			<template>${collection_year!""}</template>
+		</freemarkerSourceInfoProvider>
+	
+		<staticSourceInfoProvider>
+			<sourceModifier>country</sourceModifier>
+			<value>country</value>
+		</staticSourceInfoProvider>
+		
+	</sourceInfoProviders>
+	
+	<featureProviders>
+
+		<constrainedAlignmentFeatureProvider>
+
+			<ancestorAlignmentName>AL_3a</ancestorAlignmentName>
+			<glueFeatureName>precursor_polyprotein</glueFeatureName>
+			<featureKey>CDS</featureKey>
+			<qualifier>
+				<key>product</key>
+				<valueTemplate>polyprotein</valueTemplate>
+			</qualifier>
+
+		</constrainedAlignmentFeatureProvider>
+
+	</featureProviders>
+	
+</gbSubmisisonGenerator>
