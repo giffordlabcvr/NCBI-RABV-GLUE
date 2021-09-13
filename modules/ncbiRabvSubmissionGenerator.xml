@@ -6,12 +6,7 @@
 		<minRunLengthForGap>50</minRunLengthForGap>
 		<linkageEvidence>align_genus</linkageEvidence>
 	</assemblyGapSpecifier>
-	
-	<structuredCommentProvider>
-		<sequencingTechnology>Illumina MiSeq</sequencingTechnology>
-		<assemblyMethod>Tanoti (unreleased v1.3)</assemblyMethod>
-	</structuredCommentProvider>
-	
+		
 	<sourceInfoProviders>
 	
 		<staticSourceInfoProvider>
@@ -36,22 +31,23 @@
 			
 		<freemarkerSourceInfoProvider>
 			<sourceModifier>isolate</sourceModifier>
-			<template>${isolate}</template>
+			<template>${isolate!""}</template>
 		</freemarkerSourceInfoProvider>
 		
 		<freemarkerSourceInfoProvider>
 			<sourceModifier>collection-date</sourceModifier>
 			<template>${collection_year!""}</template>
 		</freemarkerSourceInfoProvider>
-	
-		<staticSourceInfoProvider>
+
+		<seqPropertySourceInfoProvider>
 			<sourceModifier>country</sourceModifier>
-			<value>country</value>
-		</staticSourceInfoProvider>
+			<propertyPath>m49_country.display_name</propertyPath>
+		</seqPropertySourceInfoProvider>
+
 		
 	</sourceInfoProviders>
 	
-	<featureProviders>
+<!-->	<featureProviders>
 
 		<constrainedAlignmentFeatureProvider>
 
@@ -66,5 +62,6 @@
 		</constrainedAlignmentFeatureProvider>
 
 	</featureProviders>
+	-->
 	
 </gbSubmisisonGenerator>
