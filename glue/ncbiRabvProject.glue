@@ -19,7 +19,6 @@ project rabv
   # update collection year bounds
   module rabvCollectionBoundsPopulator populate -w "source.name = 'ncbi-curated'"
 
-  
   multi-set field sequence -a exclude_from_almt_tree false
   multi-set field sequence -w "patent_related = true" exclude_from_almt_tree true
   multi-set field sequence -w "gb_length < 200" exclude_from_almt_tree true
@@ -35,3 +34,4 @@ project rabv
     exit
  
   exit
+

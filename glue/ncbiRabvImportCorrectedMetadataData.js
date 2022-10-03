@@ -17,7 +17,7 @@ for(var i = 0; i < infiles.length; i++) {
 	// Load data from tab file 
 	var loadResult;
 	glue.inMode("module/tabularUtilityTab", function() {
-		loadResult = glue.tableToObjects(glue.command(["load-tabular", "tabular/ncbi-reviewed/"+infile]));
+		loadResult = glue.tableToObjects(glue.command(["load-tabular", "tabular/kat/"+infile]));
 		glue.log("INFO", "load result was:", loadResult);
 	});
 
