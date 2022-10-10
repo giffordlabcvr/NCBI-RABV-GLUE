@@ -34,7 +34,7 @@ for(var i = 0; i < infiles.length; i++) {
 		    glue.log("INFO", "FIELD: countryUpdate:", countryUpdate);	    
 		    if (countryUpdate != 'unchanged') {		    	
 				glue.log("INFO", "Updating country field to:", countryEdit);
-				glue.command(["set", "field", "gb_country", countryUpdate]);				
+				glue.command(["set", "field", "gb_country", countryEdit]);				
 		    }
 		    
         	var placeEdit   = isolateObj.place_edit;
