@@ -14,6 +14,9 @@ project rabv
   # Import corrected meta-data
   run script glue/ncbiRabvImportCorrectedMetadataData.js
 
+  # Import MADDOG lineage data
+  run file glue/ncbiRabvImportMaddogLineageData.glue
+
   multi-set field sequence -w "patent_related = null" patent_related false
 
   # update collection year bounds

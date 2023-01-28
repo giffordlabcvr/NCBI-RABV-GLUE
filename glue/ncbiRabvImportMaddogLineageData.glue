@@ -1,0 +1,8 @@
+# Clean up (in case of any previous runs)
+delete module rabvMaddogLineageDataImporter
+
+# Create text file importer module
+create module -f modules/rabvMaddogLineageDataImporter.xml 
+
+# Import the MADDOG lineage data 
+module rabvMaddogLineageDataImporter populate -f tabular/maddog/sequence_data.csv -w "source.name = 'ncbi-curated'"

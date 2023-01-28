@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<textFilePopulator>
+    <columnDelimiterRegex>,</columnDelimiterRegex>
+    
+
+    <textFileColumn>
+        <identifier>true</identifier>
+        <header>ID</header>
+        <property>sequenceID</property>
+    </textFileColumn>
+
+    <textFileColumn>
+        <header>cluster</header>
+        <property>maddog_lineage</property>
+    </textFileColumn>
+      
+
+    <skipMissing>true</skipMissing>
+
+</textFilePopulator>
