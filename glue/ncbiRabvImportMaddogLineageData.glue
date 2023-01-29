@@ -6,3 +6,7 @@ create module -f modules/rabvMaddogLineageDataImporter.xml
 
 # Import the MADDOG lineage data 
 module rabvMaddogLineageDataImporter populate -f tabular/maddog/sequence_data.csv -w "source.name = 'ncbi-curated'"
+module rabvMaddogLineageDataImporter populate -f tabular/maddog/sequence_data.csv -w "source.name = 'ncbi-refseqs'"
+
+module rabvMaddogLineageDataImporter populate -f tabular/maddog/reference_table.csv -w "source.name = 'ncbi-curated'"
+module rabvMaddogLineageDataImporter populate -f tabular/maddog/reference_table.csv -w "source.name = 'ncbi-refseqs'"
