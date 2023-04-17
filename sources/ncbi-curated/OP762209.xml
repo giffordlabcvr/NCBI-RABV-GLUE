@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+
+    <GBSeq_locus>OP762209</GBSeq_locus>
+    <GBSeq_length>1575</GBSeq_length>
+    <GBSeq_strandedness>single</GBSeq_strandedness>
+    <GBSeq_moltype>cRNA</GBSeq_moltype>
+    <GBSeq_topology>linear</GBSeq_topology>
+    <GBSeq_division>VRL</GBSeq_division>
+    <GBSeq_update-date>27-MAR-2023</GBSeq_update-date>
+    <GBSeq_create-date>27-MAR-2023</GBSeq_create-date>
+    <GBSeq_definition>Lyssavirus rabies isolate IP3629/11_P4 glycoprotein gene, complete cds</GBSeq_definition>
+    <GBSeq_primary-accession>OP762209</GBSeq_primary-accession>
+    <GBSeq_accession-version>OP762209.1</GBSeq_accession-version>
+    <GBSeq_other-seqids>
+      <GBSeqid>gb|OP762209.1|</GBSeqid>
+      <GBSeqid>gi|2463635427</GBSeqid>
+    </GBSeq_other-seqids>
+    <GBSeq_source>Lyssavirus rabies</GBSeq_source>
+    <GBSeq_organism>Lyssavirus rabies</GBSeq_organism>
+    <GBSeq_taxonomy>Viruses; Riboviria; Orthornavirae; Negarnaviricota; Haploviricotina; Monjiviricetes; Mononegavirales; Rhabdoviridae; Alpharhabdovirinae; Lyssavirus</GBSeq_taxonomy>
+    <GBSeq_references>
+      <GBReference>
+        <GBReference_reference>1</GBReference_reference>
+        <GBReference_position>1..1575</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Conselheiro,J.A.</GBAuthor>
+          <GBAuthor>Barone,G.T.</GBAuthor>
+          <GBAuthor>Miyagi,S.A.T.</GBAuthor>
+          <GBAuthor>de Souza Silva,S.O.</GBAuthor>
+          <GBAuthor>Agostinho,W.C.</GBAuthor>
+          <GBAuthor>Aguiar,J.</GBAuthor>
+          <GBAuthor>Brandao,P.E.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Evolution of Rabies Virus Isolates: Virulence Signatures and Effects of Modulation by Neutralizing Antibodies</GBReference_title>
+        <GBReference_journal>Pathogens 11 (12), 1556 (2022)</GBReference_journal>
+        <GBReference_xref>
+          <GBXref>
+            <GBXref_dbname>doi</GBXref_dbname>
+            <GBXref_id>10.3390/pathogens11121556</GBXref_id>
+          </GBXref>
+        </GBReference_xref>
+        <GBReference_pubmed>36558890</GBReference_pubmed>
+        <GBReference_remark>Publication Status: Online-Only</GBReference_remark>
+      </GBReference>
+      <GBReference>
+        <GBReference_reference>2</GBReference_reference>
+        <GBReference_position>1..1575</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Conselheiro,J.A.</GBAuthor>
+          <GBAuthor>Brandao,P.E.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Direct Submission</GBReference_title>
+        <GBReference_journal>Submitted (01-NOV-2022) Preventive Veterinary Medicine and Animal Health (VPS), University of Sao Paulo, Rua Prof. Dr. Orlando Marques de Paiva, 87, Sao Paulo, SP 05508-270, Brazil</GBReference_journal>
+      </GBReference>
+    </GBSeq_references>
+    <GBSeq_comment>##Assembly-Data-START## ; Sequencing Technology :: Sanger dideoxy sequencing ; ##Assembly-Data-END##</GBSeq_comment>
+    <GBSeq_feature-table>
+      <GBFeature>
+        <GBFeature_key>source</GBFeature_key>
+        <GBFeature_location>1..1575</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>1575</GBInterval_to>
+            <GBInterval_accession>OP762209.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>organism</GBQualifier_name>
+            <GBQualifier_value>Lyssavirus rabies</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>mol_type</GBQualifier_name>
+            <GBQualifier_value>viral cRNA</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>isolate</GBQualifier_name>
+            <GBQualifier_value>IP3629/11_P4</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>host</GBQualifier_name>
+            <GBQualifier_value>Canis lupus familiaris</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>taxon:11292</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>country</GBQualifier_name>
+            <GBQualifier_value>Brazil</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>collection_date</GBQualifier_name>
+            <GBQualifier_value>2011</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>note</GBQualifier_name>
+            <GBQualifier_value>serial passage in Neuro-2a cell line</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>CDS</GBFeature_key>
+        <GBFeature_location>1..1575</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>1575</GBInterval_to>
+            <GBInterval_accession>OP762209.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>codon_start</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>transl_table</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>product</GBQualifier_name>
+            <GBQualifier_value>glycoprotein</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>protein_id</GBQualifier_name>
+            <GBQualifier_value>WET60326.1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>translation</GBQualifier_name>
+            <GBQualifier_value>MVPQALLLVPLLAVSFCFGKFPIYTIPDKLGPWSPIDIHHLSCPNNLVVEDEGCTNLSGFSYMELKVGYISAIKVNGFTCTGVVTEAETYTNFVGYVTTTFKRKHFRPTPDACRSAYNWKMAGDPRYEESLHNPYPDYHWLRTVKTTKESLVIISPSVADLDPYDKSLHSRVFPSGKCSGITVSSTCCSTNHDYTIWLPENPRLGTSCDIFTNSRGKRASKGSKTCGFVDERGLYKSLKGACKLKLCGVLGLRLMDGTWVAMQTSDETKWCPPDQLVNLHDFRSDEIEHLVVEELVKKREECLDALESIMTTKSVSFRRLSHLRKLVPGFGKAYTIFNKTLMEADAHYKSVRTWNEIIPSKGCLRVGGRCHPHVNGVFFNGIILGPDGHVLIPEMQSSLLQQHMELLESSVIPLMHPLADPSTVFKDGDEAEDFVEVHLPDVHKQVSGVDLGLPNWGKYVLMSAGVLTALMLIIFLMTCCRRVNRPDSTQRSFGRTGRKVSVTSQSGKVISSWESYKSGGETRL</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+    </GBSeq_feature-table>
+    <GBSeq_sequence>atggttcctcaggctcttttgctcgtaccccttctggcggtctcattttgtttcgggaaattccccatttacacaataccagacaagcttggtccctggagcccgattgacatacatcatcttagctgtccaaacaatttggttgtggaggatgaaggatgcactaacctgtcagggttctcctacatggaacttaaagttggatacatctccgccataaaagtaaacgggttcacttgcacaggcgttgtgacagaggcagaaacctacaccaactttgtcggttatgtcacaaccacgttcaagagaaagcattttcgcccaacaccagatgcatgtagatctgcgtacaactggaagatggcaggcgaccccagatatgaggagtctctacacaatccgtaccccgactaccattggcttaggactgtaaagaccaccaaagaatctctcgttatcatatcccccagtgtggcagatttggacccatacgacaaatcccttcactccagggtcttccccagcgggaagtgctcgggaataacggtgtcttctacctgctgctcgaccaatcatgattacaccatttggctgcccgagaatccgagactagggacatcttgtgacatattcaccaatagtagagggaagagagcatccaaaggaagcaagacttgcggctttgttgatgaaagaggcctgtataagtccctaaagggagcatgcaaactcaaattatgtggagttcttggacttagacttatggacggaacatgggtagcgatgcaaacatcggatgagaccaaatggtgccctcctgatcagttggtaaacctgcacgacttccgctcggacgagattgagcatcttgttgtggaggagttggtcaagaaaagagaggagtgtctggatgcattagagtccatcatgaccaccaagtcagtgagtttcagacgtctcagtcatttaagaaaacttgtccccgggttcggaaaggcatatactatattcaacaaaactttgatggaggctgatgctcactacaagtcagtccggacttggaacgagatcatcccctcaaaagggtgtttaagagtgggagggaggtgtcatcctcatgtgaacggggtgttcttcaatggtataatactggggcctgatggccatgttctaatcccagagatgcaatcatcactcctccagcaacacatggagttgttagaatcctcagtcatccccctgatgcaccctttggcagacccatctacagttttcaaggacggtgatgaggccgaagactttgttgaagttcaccttcccgatgtgcacaaacaggtctctggggttgacctgggtctcccaaactgggggaaatatgtattaatgagtgcaggggtcctgactgccttgatgttgataattttcttaatgacatgttgtagaagagtcaatcgaccagactctacacaacgcagttttggaaggacagggaggaaggtgtcagttacctcccaaagcgggaaggtcatatcttcatgggagtcatataaaagtggaggcgagactaggctgtga</GBSeq_sequence>
+  </GBSeq>
