@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+
+    <GBSeq_locus>OQ543189</GBSeq_locus>
+    <GBSeq_length>177</GBSeq_length>
+    <GBSeq_strandedness>single</GBSeq_strandedness>
+    <GBSeq_moltype>cRNA</GBSeq_moltype>
+    <GBSeq_topology>linear</GBSeq_topology>
+    <GBSeq_division>VRL</GBSeq_division>
+    <GBSeq_update-date>28-AUG-2023</GBSeq_update-date>
+    <GBSeq_create-date>28-AUG-2023</GBSeq_create-date>
+    <GBSeq_definition>Lyssavirus rabies isolate LACEN-UNIFESP S-93 polymerase gene, partial cds</GBSeq_definition>
+    <GBSeq_primary-accession>OQ543189</GBSeq_primary-accession>
+    <GBSeq_accession-version>OQ543189.1</GBSeq_accession-version>
+    <GBSeq_other-seqids>
+      <GBSeqid>gb|OQ543189.1|</GBSeqid>
+      <GBSeqid>gi|2567160218</GBSeqid>
+    </GBSeq_other-seqids>
+    <GBSeq_source>Lyssavirus rabies</GBSeq_source>
+    <GBSeq_organism>Lyssavirus rabies</GBSeq_organism>
+    <GBSeq_taxonomy>Viruses; Riboviria; Orthornavirae; Negarnaviricota; Haploviricotina; Monjiviricetes; Mononegavirales; Rhabdoviridae; Alpharhabdovirinae; Lyssavirus</GBSeq_taxonomy>
+    <GBSeq_references>
+      <GBReference>
+        <GBReference_reference>1</GBReference_reference>
+        <GBReference_position>1..177</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>de Sousa,L.L.F.</GBAuthor>
+          <GBAuthor>de Souza,T.L.</GBAuthor>
+          <GBAuthor>Tibo,L.H.S.</GBAuthor>
+          <GBAuthor>Moura,F.B.P.</GBAuthor>
+          <GBAuthor>Junior,F.A.S.</GBAuthor>
+          <GBAuthor>de Oliveira-Filho,E.F.</GBAuthor>
+          <GBAuthor>Ludwig-Begall,L.F.</GBAuthor>
+          <GBAuthor>Cabral-Miranda,G.</GBAuthor>
+          <GBAuthor>Andreata-Santos,R.</GBAuthor>
+          <GBAuthor>Janini,L.M.R.</GBAuthor>
+          <GBAuthor>Poon,L.L.M.</GBAuthor>
+          <GBAuthor>Duraes-Carvalho,R.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Rabies virus variants from bats closely related to variants found in marmosets (Callithrix jacchus), a neglected source of human rabies infection in Brazil</GBReference_title>
+        <GBReference_journal>J Med Virol 95 (8), e29046 (2023)</GBReference_journal>
+        <GBReference_xref>
+          <GBXref>
+            <GBXref_dbname>doi</GBXref_dbname>
+            <GBXref_id>10.1002/jmv.29046</GBXref_id>
+          </GBXref>
+        </GBReference_xref>
+        <GBReference_pubmed>37605969</GBReference_pubmed>
+      </GBReference>
+      <GBReference>
+        <GBReference_reference>2</GBReference_reference>
+        <GBReference_position>1..177</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>de Sousa,L.L.F.</GBAuthor>
+          <GBAuthor>de Souza,T.L.</GBAuthor>
+          <GBAuthor>Tibo,L.H.S.</GBAuthor>
+          <GBAuthor>Duraes-Carvalho,R.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Direct Submission</GBReference_title>
+        <GBReference_journal>Submitted (27-FEB-2023) Microbiology, Immunology and Parasitology, Federal University of Sao Paulo, Rua Pedro de Toledo, 781, Sao Paulo, Sao Paulo 04039-032, Brazil</GBReference_journal>
+      </GBReference>
+    </GBSeq_references>
+    <GBSeq_comment>##Assembly-Data-START## ; Sequencing Technology :: Sanger dideoxy sequencing ; ##Assembly-Data-END##</GBSeq_comment>
+    <GBSeq_feature-table>
+      <GBFeature>
+        <GBFeature_key>source</GBFeature_key>
+        <GBFeature_location>1..177</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>177</GBInterval_to>
+            <GBInterval_accession>OQ543189.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>organism</GBQualifier_name>
+            <GBQualifier_value>Lyssavirus rabies</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>mol_type</GBQualifier_name>
+            <GBQualifier_value>viral cRNA</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>isolate</GBQualifier_name>
+            <GBQualifier_value>LACEN-UNIFESP S-93</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>isolation_source</GBQualifier_name>
+            <GBQualifier_value>brain</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>host</GBQualifier_name>
+            <GBQualifier_value>Artibeus lituratus</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>taxon:11292</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>country</GBQualifier_name>
+            <GBQualifier_value>Brazil: Trairi-CE</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>collection_date</GBQualifier_name>
+            <GBQualifier_value>2022</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>CDS</GBFeature_key>
+        <GBFeature_location>&lt;1..&gt;177</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>177</GBInterval_to>
+            <GBInterval_accession>OQ543189.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_partial5 value="true"/>
+        <GBFeature_partial3 value="true"/>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>note</GBQualifier_name>
+            <GBQualifier_value>L; polymerase activity module</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>codon_start</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>transl_table</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>product</GBQualifier_name>
+            <GBQualifier_value>polymerase</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>protein_id</GBQualifier_name>
+            <GBQualifier_value>WMD27147.1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>translation</GBQualifier_name>
+            <GBQualifier_value>KRVFSRTHELFQKSWIYYSDRSDLIGLWEDQIYCLDMSDGPTCWNGQDGGLEGLRQNGW</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+    </GBSeq_feature-table>
+    <GBSeq_sequence>aagagggtgttctctaggactcatgagctttttcaaaaatcttggatctattattcagacaggtccgacctcatcgggttgtgggaagatcaaatatactgcttggatatgtctgatggtccaacatgctggaatggccaagatggcggattggaaggcctacgacaaaacggatgg</GBSeq_sequence>
+  </GBSeq>

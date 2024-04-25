@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+
+    <GBSeq_locus>PP405269</GBSeq_locus>
+    <GBSeq_length>1353</GBSeq_length>
+    <GBSeq_strandedness>single</GBSeq_strandedness>
+    <GBSeq_moltype>cRNA</GBSeq_moltype>
+    <GBSeq_topology>linear</GBSeq_topology>
+    <GBSeq_division>VRL</GBSeq_division>
+    <GBSeq_update-date>10-MAR-2024</GBSeq_update-date>
+    <GBSeq_create-date>10-MAR-2024</GBSeq_create-date>
+    <GBSeq_definition>Lyssavirus rabies isolate A19-1913n nucleoprotein (N) gene, complete cds</GBSeq_definition>
+    <GBSeq_primary-accession>PP405269</GBSeq_primary-accession>
+    <GBSeq_accession-version>PP405269.1</GBSeq_accession-version>
+    <GBSeq_other-seqids>
+      <GBSeqid>gb|PP405269.1|</GBSeqid>
+      <GBSeqid>gi|2693012144</GBSeqid>
+    </GBSeq_other-seqids>
+    <GBSeq_source>Lyssavirus rabies</GBSeq_source>
+    <GBSeq_organism>Lyssavirus rabies</GBSeq_organism>
+    <GBSeq_taxonomy>Viruses; Riboviria; Orthornavirae; Negarnaviricota; Haploviricotina; Monjiviricetes; Mononegavirales; Rhabdoviridae; Alpharhabdovirinae; Lyssavirus</GBSeq_taxonomy>
+    <GBSeq_references>
+      <GBReference>
+        <GBReference_reference>1</GBReference_reference>
+        <GBReference_position>1..1353</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Hopken,M.W.</GBAuthor>
+          <GBAuthor>Gigante,C.M.</GBAuthor>
+          <GBAuthor>Gilber,A.T.</GBAuthor>
+          <GBAuthor>Chipman,R.B.</GBAuthor>
+          <GBAuthor>Kirby,J.</GBAuthor>
+          <GBAuthor>Condori,R.E.</GBAuthor>
+          <GBAuthor>Mills,S.</GBAuthor>
+          <GBAuthor>Hartley,C.</GBAuthor>
+          <GBAuthor>Forbes,J.</GBAuthor>
+          <GBAuthor>Dettinger,L.</GBAuthor>
+          <GBAuthor>Xia,D.</GBAuthor>
+          <GBAuthor>Li,Y.</GBAuthor>
+          <GBAuthor>von Holdt,B.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Genetic tracking of a rabid coyote (Canis latrans) detected beyond a rabies enzootic area in West Virginia</GBReference_title>
+        <GBReference_journal>J Wildl Dis (2024) In press</GBReference_journal>
+      </GBReference>
+      <GBReference>
+        <GBReference_reference>2</GBReference_reference>
+        <GBReference_position>1..1353</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Hopken,M.W.</GBAuthor>
+          <GBAuthor>Gigante,C.M.</GBAuthor>
+          <GBAuthor>Gilber,A.T.</GBAuthor>
+          <GBAuthor>Chipman,R.B.</GBAuthor>
+          <GBAuthor>Kirby,J.</GBAuthor>
+          <GBAuthor>Condori,R.E.</GBAuthor>
+          <GBAuthor>Mills,S.</GBAuthor>
+          <GBAuthor>Hartley,C.</GBAuthor>
+          <GBAuthor>Forbes,J.</GBAuthor>
+          <GBAuthor>Dettinger,L.</GBAuthor>
+          <GBAuthor>Xia,D.</GBAuthor>
+          <GBAuthor>Li,Y.</GBAuthor>
+          <GBAuthor>von Holdt,B.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Direct Submission</GBReference_title>
+        <GBReference_journal>Submitted (13-FEB-2024) Division of High-Consequence Pathogens and Pathology, Centers for Disease Control and Prevention, 1600 Clifton Road, Atlanta, GA 30329, USA</GBReference_journal>
+      </GBReference>
+    </GBSeq_references>
+    <GBSeq_comment>##Assembly-Data-START## ; Assembly Method :: guppy v. 4.2.2; ivar v. 0.1; minimap2 v. 2.16; medaka v. 1.0.1 ; Coverage :: &gt;50 ; Sequencing Technology :: Oxford Nanopore ; ##Assembly-Data-END##</GBSeq_comment>
+    <GBSeq_feature-table>
+      <GBFeature>
+        <GBFeature_key>source</GBFeature_key>
+        <GBFeature_location>1..1353</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>1353</GBInterval_to>
+            <GBInterval_accession>PP405269.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>organism</GBQualifier_name>
+            <GBQualifier_value>Lyssavirus rabies</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>mol_type</GBQualifier_name>
+            <GBQualifier_value>viral cRNA</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>isolate</GBQualifier_name>
+            <GBQualifier_value>A19-1913n</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>isolation_source</GBQualifier_name>
+            <GBQualifier_value>brain</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>host</GBQualifier_name>
+            <GBQualifier_value>Procyon lotor</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>taxon:11292</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>country</GBQualifier_name>
+            <GBQualifier_value>USA: WV</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>collection_date</GBQualifier_name>
+            <GBQualifier_value>13-Sep-2019</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>note</GBQualifier_name>
+            <GBQualifier_value>US Eastern raccoon rabies virus variant</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>gene</GBFeature_key>
+        <GBFeature_location>1..1353</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>1353</GBInterval_to>
+            <GBInterval_accession>PP405269.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>gene</GBQualifier_name>
+            <GBQualifier_value>N</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>CDS</GBFeature_key>
+        <GBFeature_location>1..1353</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>1353</GBInterval_to>
+            <GBInterval_accession>PP405269.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>gene</GBQualifier_name>
+            <GBQualifier_value>N</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>codon_start</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>transl_table</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>product</GBQualifier_name>
+            <GBQualifier_value>nucleoprotein</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>protein_id</GBQualifier_name>
+            <GBQualifier_value>WWS25501.1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>translation</GBQualifier_name>
+            <GBQualifier_value>MDTDKIVFKVNNQVVSLKPEIIVDQYEYKYPAIKDLKKPSISLGKAPDLNKAYKSILSGMNAAKLDPDDVCSYLAAAMQFFEGTCPEDWTSYGILIARKGDKITPNSLVDIKRTDVEGNWALTGGMELTRDPTIPEHASLVGLLLSLYRLSKISGQNTGNYKTNISDRIEQIFETAPFVKIVEHHTLMTTHKMCANWSTIPNFRFLAGTYDMFFSRIEHLYSAIRVGTVVTAYEDCSGLVSFTGFIKQINLTAKEAILYFFHKNFEGEIRRMFEPGQETAVPHSYFIHFRSLGLSGKSPYSSSAVGHVFNLIHFVGCYMGQVRSLNATVIATCAPHEMSVLGGYLGEEFFGKGTFERRFFRNEKELQDYEAAELTKTEVALADDGTVNSDDEDYFSGETRSPEAVYTRIMINGGRLKRSHIRRYVSVSSNHQARPNSFAEFLNKTYSNDP</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+    </GBSeq_feature-table>
+    <GBSeq_sequence>atggataccgacaaaattgtattcaaagtcaataaccaggttgtctctctaaaacctgaaattattgtagatcaatatgagtacaaatacccggctatcaaagacttaaagaagcccagtatctccctgggaaaagctcctgatttgaacaaggcgtataagtcaattttgtccggtatgaatgcagctaagctcgaccctgacgatgtgtgctcttacttggcagcagcaatgcagttctttgaaggaacatgtccagaagactggactagctatggaatcttgatcgcaaggaaaggagacaagataactccaaactctctcgtagacataaaacgtacagatgtagaagggaactgggctctaacaggaggaatggagttgactagggatcccaccatcccagaacatgcatctttggttggtcttctcctgagtttgtatcgattgagcaaaatatctggacagaacacaggcaattacaagacaaatatctctgatcgtatagagcagatttttgagacggccccctttgtgaagatcgtggaacatcacactttgatgacaactcacaaaatgtgcgctaactggagcaccataccgaactttagattcctagccggaacttatgacatgtttttctctcggattgaacatctatattcagcaatcagagtgggtacagttgttactgcttacgaggactgctcagggctagtatcttttacaggttttataaagcagataaaccttacagcaaaggaggcaatactttatttcttccacaaaaattttgagggagagataagaagaatgtttgagccgggacaggaaactgcagtccctcactcctatttcatccatttccggtctttgggcctgagtgggaaatctccatattcgtcaagtgcagttggtcacgtgttcaacctcattcactttgttggatgctatatgggtcaagtgaggtctttgaatgcaacggttattgccacatgtgctccacatgagatgtctgttctcgggggttatttgggggaggagttctttggcaaggggacttttgagagaagattcttcagaaacgagaaggaacttcaggactatgaagcagcagagttgacaaagactgaggtcgctctagcagacgacggaacagtcaattctgacgacgaagactacttctctggtgaaaccaggagtccagaggcggtctatactcggatcatgatcaatgggggccgactcaaaagatcacatataagaaggtatgtatcagtcagttccaatcatcaagctcgccccaattcatttgctgaatttctaaacaagacatattctaacgacccgtag</GBSeq_sequence>
+  </GBSeq>

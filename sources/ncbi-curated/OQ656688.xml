@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+
+    <GBSeq_locus>OQ656688</GBSeq_locus>
+    <GBSeq_length>1353</GBSeq_length>
+    <GBSeq_strandedness>single</GBSeq_strandedness>
+    <GBSeq_moltype>cRNA</GBSeq_moltype>
+    <GBSeq_topology>linear</GBSeq_topology>
+    <GBSeq_division>VRL</GBSeq_division>
+    <GBSeq_update-date>01-APR-2024</GBSeq_update-date>
+    <GBSeq_create-date>01-APR-2024</GBSeq_create-date>
+    <GBSeq_definition>Lyssavirus rabies isolate RV_An25_RV_17376_Suceava_Dog_Rom_2022 nucleoprotein gene, complete cds</GBSeq_definition>
+    <GBSeq_primary-accession>OQ656688</GBSeq_primary-accession>
+    <GBSeq_accession-version>OQ656688.1</GBSeq_accession-version>
+    <GBSeq_other-seqids>
+      <GBSeqid>gb|OQ656688.1|</GBSeqid>
+      <GBSeqid>gi|2695673403</GBSeqid>
+    </GBSeq_other-seqids>
+    <GBSeq_source>Lyssavirus rabies</GBSeq_source>
+    <GBSeq_organism>Lyssavirus rabies</GBSeq_organism>
+    <GBSeq_taxonomy>Viruses; Riboviria; Orthornavirae; Negarnaviricota; Haploviricotina; Monjiviricetes; Mononegavirales; Rhabdoviridae; Alpharhabdovirinae; Lyssavirus</GBSeq_taxonomy>
+    <GBSeq_references>
+      <GBReference>
+        <GBReference_reference>1</GBReference_reference>
+        <GBReference_position>1..1353</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Smreczak,M.</GBAuthor>
+          <GBAuthor>Orlowska,A.</GBAuthor>
+          <GBAuthor>Malik,P.</GBAuthor>
+          <GBAuthor>Nandori,A.</GBAuthor>
+          <GBAuthor>Jerg,S.</GBAuthor>
+          <GBAuthor>Dirbakova,Z.</GBAuthor>
+          <GBAuthor>Rudoi,O.</GBAuthor>
+          <GBAuthor>Polupan,Y.</GBAuthor>
+          <GBAuthor>Groza,O.</GBAuthor>
+          <GBAuthor>Arseniev,S.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Sylvatic rabies re-emergences in Central-Eastern Europe over 2021-2022: another example of how human society crises pitfalls the fight against deadly zoonoses</GBReference_title>
+        <GBReference_journal>Unpublished</GBReference_journal>
+      </GBReference>
+      <GBReference>
+        <GBReference_reference>2</GBReference_reference>
+        <GBReference_position>1..1353</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Robardet,E.</GBAuthor>
+          <GBAuthor>Picard Meyer,E.</GBAuthor>
+          <GBAuthor>Vuta,V.</GBAuthor>
+          <GBAuthor>Barbuceanu,F.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Direct Submission</GBReference_title>
+        <GBReference_journal>Submitted (17-MAR-2023) Lyssavirus Unit, Anses Nancy, Technopole Agricole et Veterinaire, Bp 40009, Malzeville 54220, France</GBReference_journal>
+      </GBReference>
+    </GBSeq_references>
+    <GBSeq_comment>##Assembly-Data-START## ; Sequencing Technology :: Sanger dideoxy sequencing ; ##Assembly-Data-END##</GBSeq_comment>
+    <GBSeq_feature-table>
+      <GBFeature>
+        <GBFeature_key>source</GBFeature_key>
+        <GBFeature_location>1..1353</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>1353</GBInterval_to>
+            <GBInterval_accession>OQ656688.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>organism</GBQualifier_name>
+            <GBQualifier_value>Lyssavirus rabies</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>mol_type</GBQualifier_name>
+            <GBQualifier_value>viral cRNA</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>isolate</GBQualifier_name>
+            <GBQualifier_value>RV_An25_RV_17376_Suceava_Dog_Rom_2022</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>isolation_source</GBQualifier_name>
+            <GBQualifier_value>Suceava</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>host</GBQualifier_name>
+            <GBQualifier_value>dog</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>taxon:11292</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>country</GBQualifier_name>
+            <GBQualifier_value>Romania</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>collection_date</GBQualifier_name>
+            <GBQualifier_value>2022</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>CDS</GBFeature_key>
+        <GBFeature_location>1..1353</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>1353</GBInterval_to>
+            <GBInterval_accession>OQ656688.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>codon_start</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>transl_table</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>product</GBQualifier_name>
+            <GBQualifier_value>nucleoprotein</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>protein_id</GBQualifier_name>
+            <GBQualifier_value>WWV62066.1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>translation</GBQualifier_name>
+            <GBQualifier_value>MDADKIVFKVNNQVVSLKPEIIVDQYEYKYPAIKDLKKPCITLGKAPDLNKAYKSVLSGMNAAKLDPDDVCSYLAAAMQFFEGTCPEDWTSYGILIARKGDKITPDSLVEIKRTGVEGNWALTGGMELTRDPTVSEHASLVGLLLSLYRLSKISGQNTGNYKTNIADRIEQIFETAPFVKIVEHHTLMTTHKMCANWSTIPNFRFLAGTYDMFFSRIEHLYSAIRVGTVVTAYEDCSGLVSFTGFIKQINLTAREAILYFFHKNFEEEIRRMFEPGQETAVPHSYFIHFRSLGLSGKSPYSSNAVGHVFNLIHFVGCYMGQVRSLNATVIAACAPHEMSVLGGYLGEEFFGKGTFERRFFRDEKELQEYEAAELTKTDVALADDGTVNSDDEDYFSGETRSPEAVYTRIMMNGGRLKKSHIRRYVSVSSNHQARPNSFAEFLNKTYSNDS</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+    </GBSeq_feature-table>
+    <GBSeq_sequence>atggatgccgacaagattgtattcaaagtcaataatcaggtggtctctttgaagcctgagattatagtggatcaatatgagtacaagtaccctgctatcaaagatttgaaaaagccctgtataaccctagggaaagcccccgacttgaacaaagcatacaagtcagttttatcaggcatgaatgcagccaagcttgatcctgatgatgtatgttcctacttggcagcagcaatgcagttctttgaggggacgtgtccagaggactggaccagctatggaatcttgattgcacgaaaaggggacaagatcaccccagactctctggtagaaataaagcgtacgggtgtagaaggaaattgggctctgacaggaggcatggaactgacaagggaccccactgtctctgaacatgcgtctttagtcggtcttctcttgagtctgtataggttgagcaaaatatcgggacaaaacactggtaactataaaacaaacattgcagacaggatagagcagattttcgagacagctccttttgtaaaaattgtggaacaccatactttaatgacaactcacaaaatgtgtgctaattggagtactataccgaatttcagatttttagccgggacctatgacatgtttttctcccggattgagcatctatattcggcaatcagagtgggtacggttgtcactgcttatgaagactgttcaggtctggtgtcgtttactgggttcataaagcagatcaatctcaccgcaagagaagcaatcctatacttcttccacaagaactttgaggaagagataagaagaatgttcgagccagggcaggagacagctgttcctcactcctatttcattcacttccgttcactaggcttgagcgggaagtctccttattcatcaaatgccgttggtcatgtgttcaatctcattcactttgttggatgctatatgggtcaagtcagatctctgaatgcaacagttattgccgcatgtgctcctcatgagatgtctgttttagggggctatctgggagaggaattcttcgggaaaggaacatttgaaagaagattctttagagatgagaaagaacttcaagaatacgaggcggctgaactgacaaagactgatgtggcattggccgatgatggaactgtcaactctgatgatgaagactacttctccggtgaaaccagaagtccagaagctgtttatactcgaatcatgatgaatggaggtcgactaaagaaatcgcatatacgaaggtatgtctcagtcagttcaaatcatcaagctcgtccaaactcattcgctgagtttctgaacaagacatattcgaacgactcataa</GBSeq_sequence>
+  </GBSeq>

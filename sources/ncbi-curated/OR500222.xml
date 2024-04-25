@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+
+    <GBSeq_locus>OR500222</GBSeq_locus>
+    <GBSeq_length>1575</GBSeq_length>
+    <GBSeq_strandedness>single</GBSeq_strandedness>
+    <GBSeq_moltype>cRNA</GBSeq_moltype>
+    <GBSeq_topology>linear</GBSeq_topology>
+    <GBSeq_division>VRL</GBSeq_division>
+    <GBSeq_update-date>08-OCT-2023</GBSeq_update-date>
+    <GBSeq_create-date>08-OCT-2023</GBSeq_create-date>
+    <GBSeq_definition>Lyssavirus rabies strain BAB-TMP glycoprotein (G) gene, complete cds</GBSeq_definition>
+    <GBSeq_primary-accession>OR500222</GBSeq_primary-accession>
+    <GBSeq_accession-version>OR500222.1</GBSeq_accession-version>
+    <GBSeq_other-seqids>
+      <GBSeqid>gb|OR500222.1|</GBSeqid>
+      <GBSeqid>gi|2587615387</GBSeqid>
+    </GBSeq_other-seqids>
+    <GBSeq_source>Lyssavirus rabies</GBSeq_source>
+    <GBSeq_organism>Lyssavirus rabies</GBSeq_organism>
+    <GBSeq_taxonomy>Viruses; Riboviria; Orthornavirae; Negarnaviricota; Haploviricotina; Monjiviricetes; Mononegavirales; Rhabdoviridae; Alpharhabdovirinae; Lyssavirus</GBSeq_taxonomy>
+    <GBSeq_references>
+      <GBReference>
+        <GBReference_reference>1</GBReference_reference>
+        <GBReference_position>1..1575</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Podgoreanu,P.</GBAuthor>
+          <GBAuthor>Petre,A.</GBAuthor>
+          <GBAuthor>Tanasa,R.I.</GBAuthor>
+          <GBAuthor>Dinu,S.</GBAuthor>
+          <GBAuthor>Oprea,M.</GBAuthor>
+          <GBAuthor>Marandiuc,I.M.</GBAuthor>
+          <GBAuthor>Vlase,E.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Sequencing and Partial Molecular Characterization of BAB-TMP, the Babes Strain of the Fixed Rabies Virus Adapted for Multiplication in Cell Lines</GBReference_title>
+        <GBReference_journal>Viruses 15 (9), 1851 (2023)</GBReference_journal>
+        <GBReference_xref>
+          <GBXref>
+            <GBXref_dbname>doi</GBXref_dbname>
+            <GBXref_id>10.3390/v15091851</GBXref_id>
+          </GBXref>
+        </GBReference_xref>
+        <GBReference_pubmed>37766258</GBReference_pubmed>
+        <GBReference_remark>Publication Status: Online-Only</GBReference_remark>
+      </GBReference>
+      <GBReference>
+        <GBReference_reference>2</GBReference_reference>
+        <GBReference_position>1..1575</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Podgoreanu,P.</GBAuthor>
+          <GBAuthor>Petre,A.</GBAuthor>
+          <GBAuthor>Tanasa,R.I.</GBAuthor>
+          <GBAuthor>Dinu,S.</GBAuthor>
+          <GBAuthor>Oprea,M.</GBAuthor>
+          <GBAuthor>Marandiuc,I.-M.</GBAuthor>
+          <GBAuthor>Vlase,E.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Direct Submission</GBReference_title>
+        <GBReference_journal>Submitted (30-AUG-2023) Center for Research and Technology Development, Cantacuzino National Military Medical Institute for Research and Development, Splaiul Independentei 103, Bucharest 050096, Romania</GBReference_journal>
+      </GBReference>
+    </GBSeq_references>
+    <GBSeq_comment>##Assembly-Data-START## ; Assembly Method :: Bowtie 2 Galaxy v. 2.3.4 ; Assembly Name :: IonXpress_048_RABV_Babes_2022-11-02T10_02_03Z ; Coverage :: 400x ; Sequencing Technology :: IonTorrent ; ##Assembly-Data-END##</GBSeq_comment>
+    <GBSeq_feature-table>
+      <GBFeature>
+        <GBFeature_key>source</GBFeature_key>
+        <GBFeature_location>1..1575</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>1575</GBInterval_to>
+            <GBInterval_accession>OR500222.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>organism</GBQualifier_name>
+            <GBQualifier_value>Lyssavirus rabies</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>mol_type</GBQualifier_name>
+            <GBQualifier_value>viral cRNA</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>strain</GBQualifier_name>
+            <GBQualifier_value>BAB-TMP</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>taxon:11292</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>lab_host</GBQualifier_name>
+            <GBQualifier_value>C1300/BHK-21</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>country</GBQualifier_name>
+            <GBQualifier_value>Romania</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>gene</GBFeature_key>
+        <GBFeature_location>1..1575</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>1575</GBInterval_to>
+            <GBInterval_accession>OR500222.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>gene</GBQualifier_name>
+            <GBQualifier_value>G</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>CDS</GBFeature_key>
+        <GBFeature_location>1..1575</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>1575</GBInterval_to>
+            <GBInterval_accession>OR500222.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>gene</GBQualifier_name>
+            <GBQualifier_value>G</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>codon_start</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>transl_table</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>product</GBQualifier_name>
+            <GBQualifier_value>glycoprotein</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>protein_id</GBQualifier_name>
+            <GBQualifier_value>WNS47128.1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>translation</GBQualifier_name>
+            <GBQualifier_value>MIPQALLFVPILGFSLCFGKFPIYTIPDKLGPWSPIDIHHLSCPNNLVVEDEGCTNLSRFSYVELKVGYISAIKVNGFTCTGVVTEAETYTNFVGYVTTTFKRKHFRPPPDACRAAHNWKMAGDPRYEESLQNPYPDYHWLRTVKTTKESLIIISPSIADLDPYDKSLHSRVFPSGKCSGITMSSVYCSTNHDYTIWMPEDPRPRTSCDIFTNSRGMKASKGNKTCGFVDERGLYKSLRGACKLKLCGVLGLRLMDGTWVAMQTSDETKWCSSDQLVNLHDFRSDEIEHLVVEELVKKREECLDALESIMTTKSVSFRRLSHLRKLVPGFGKAYTIFNKTLMEADAHYKSVRTWNEIIPSKGCLRVGGRCHPHVNGVFFNGIILGPDGHVLIPEMQSSLLQQHMELLESSVIPLMHPLADPSTVFKDGDEAEDFVEVHLPDVHKQVSGVDLGFTKWGEYVLLSAGTLIALMLIIFLMTCCRRVNRPESTQRSPGGTGREVSVTPQSGEFISSWESYRGRGDIRL</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+    </GBSeq_feature-table>
+    <GBSeq_sequence>atgattcctcaggctcttttgtttgtacccattctgggtttttcattgtgttttgggaaattccctatttacacgataccagacaaactaggcccctggagcccgattgatatacatcatctcagctgcccgaacaatttggttgtggaggacgaaggatgcaccaacctgtcaaggttctcctacgtggaacttaaagttggatacatctcagccataaaggtgaacgggttcacttgcacaggcgttgtgacagaagcagaaacctacactaactttgttggttatgtcaccaccacgttcaaaaggaagcatttccgccccccaccagatgcatgtagagccgcgcacaactggaagatggctggtgaccccagatatgaagagtctctacaaaatccgtaccctgactaccattggcttcgaactgtaaagaccaccaaggagtctctcattatcatatccccaagtattgcagatttggacccatatgacaaatcccttcactcgagggtcttccctagcggaaagtgctcaggaataacgatgtcttctgtctactgctcaactaaccacgattacaccatttggatgcctgaggatccgagaccacggacatcttgtgacatttttaccaatagtagagggatgaaagcatccaaggggaacaagacctgcggctttgtagatgaaagaggcctgtataagtctctaagaggtgcatgcaagctcaagttatgtggagttcttggactcagacttatggatggaacatgggtcgcaatgcagacatcagatgagaccaaatggtgttcttccgatcagttggttaatctgcatgattttcgctcagatgaaattgagcatcttgtagtagaggagttagtcaagaaaagagaggaatgtctggatgcactagagtccatcatgaccaccaagtcagtgagtttcagacgtctcagtcacttaagaaaacttgtccctgggttcggaaaagcatataccatattcaacaagaccttgatggaggctgatgctcactacaagtcagtccggacttggaatgagatcattccctcaaaagggtgtttgagagttggagggaggtgtcatcctcatgtaaacggggtattcttcaatggtataatattagggcccgacggccatgttttaatcccagagatgcaatcatccctcctccagcaacatatggagttacttgaatcctcggttattcctctgatgcatccccttgcagacccttccaccgttttcaaggacggcgatgaggctgaggattttgtagaagttcaccttcccgatgtgcacaaacaggtctcaggggttgatctgggtttcacaaaatggggggagtatgtgttactaagtgcagggaccttgattgccttgatgttgataattttcctaatgacatgttgtagaagagtcaatcgaccagaatctacacaacgcagtcctggagggacagggagggaggtgtcggtcaccccccaaagcggagaattcatatcttcatgggagtcatatagaggcaggggtgatattagactgtga</GBSeq_sequence>
+  </GBSeq>
