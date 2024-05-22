@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+
+    <GBSeq_locus>PP681419</GBSeq_locus>
+    <GBSeq_length>1353</GBSeq_length>
+    <GBSeq_strandedness>single</GBSeq_strandedness>
+    <GBSeq_moltype>cRNA</GBSeq_moltype>
+    <GBSeq_topology>linear</GBSeq_topology>
+    <GBSeq_division>VRL</GBSeq_division>
+    <GBSeq_update-date>23-APR-2024</GBSeq_update-date>
+    <GBSeq_create-date>23-APR-2024</GBSeq_create-date>
+    <GBSeq_definition>Lyssavirus rabies isolate 7214-17 nucleoprotein (N) gene, complete cds</GBSeq_definition>
+    <GBSeq_primary-accession>PP681419</GBSeq_primary-accession>
+    <GBSeq_accession-version>PP681419.1</GBSeq_accession-version>
+    <GBSeq_other-seqids>
+      <GBSeqid>gb|PP681419.1|</GBSeqid>
+      <GBSeqid>gi|2718993796</GBSeqid>
+    </GBSeq_other-seqids>
+    <GBSeq_source>Lyssavirus rabies</GBSeq_source>
+    <GBSeq_organism>Lyssavirus rabies</GBSeq_organism>
+    <GBSeq_taxonomy>Viruses; Riboviria; Orthornavirae; Negarnaviricota; Haploviricotina; Monjiviricetes; Mononegavirales; Rhabdoviridae; Alpharhabdovirinae; Lyssavirus</GBSeq_taxonomy>
+    <GBSeq_references>
+      <GBReference>
+        <GBReference_reference>1</GBReference_reference>
+        <GBReference_position>1..1353</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Gilbert,A.</GBAuthor>
+          <GBAuthor>VanPelt,L.</GBAuthor>
+          <GBAuthor>Hastings,L.</GBAuthor>
+          <GBAuthor>Gigante,C.M.</GBAuthor>
+          <GBAuthor>Orciari,L.A.</GBAuthor>
+          <GBAuthor>Kelley,S.</GBAuthor>
+          <GBAuthor>Fitzpatrick,K.</GBAuthor>
+          <GBAuthor>Condori,R.E.</GBAuthor>
+          <GBAuthor>Li,Y.</GBAuthor>
+          <GBAuthor>Brunt,S.</GBAuthor>
+          <GBAuthor>Davis,A.</GBAuthor>
+          <GBAuthor>Hopken,M.</GBAuthor>
+          <GBAuthor>Mankowski,C.</GBAuthor>
+          <GBAuthor>Wallace,R.</GBAuthor>
+          <GBAuthor>Rupprecht,C.</GBAuthor>
+          <GBAuthor>Chipman,R.</GBAuthor>
+          <GBAuthor>Bergman,D.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Re-emergence of a big brown bat Lyssavirus rabies variant in striped skunks in Flagstaff, Arizona, USA, 2021-2023</GBReference_title>
+        <GBReference_journal>Vector Borne Zoonotic Dis (2024) In press</GBReference_journal>
+      </GBReference>
+      <GBReference>
+        <GBReference_reference>2</GBReference_reference>
+        <GBReference_position>1..1353</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Gilbert,A.</GBAuthor>
+          <GBAuthor>VanPelt,L.</GBAuthor>
+          <GBAuthor>Hastings,L.</GBAuthor>
+          <GBAuthor>Gigante,C.M.</GBAuthor>
+          <GBAuthor>Orciari,L.A.</GBAuthor>
+          <GBAuthor>Kelley,S.</GBAuthor>
+          <GBAuthor>Fitzpatrick,K.</GBAuthor>
+          <GBAuthor>Condori,R.E.</GBAuthor>
+          <GBAuthor>Li,Y.</GBAuthor>
+          <GBAuthor>Brunt,S.</GBAuthor>
+          <GBAuthor>Davis,A.</GBAuthor>
+          <GBAuthor>Hopken,M.</GBAuthor>
+          <GBAuthor>Mankowski,C.</GBAuthor>
+          <GBAuthor>Wallace,R.</GBAuthor>
+          <GBAuthor>Rupprecht,C.</GBAuthor>
+          <GBAuthor>Chipman,R.</GBAuthor>
+          <GBAuthor>Bergman,D.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Direct Submission</GBReference_title>
+        <GBReference_journal>Submitted (16-APR-2024) Division of High-Consequence Pathogens and Pathology, Centers for Disease Control and Prevention, 1600 Clifton Road, Atlanta, GA 30329, USA</GBReference_journal>
+      </GBReference>
+    </GBSeq_references>
+    <GBSeq_comment>##Assembly-Data-START## ; Assembly Method :: minimap2 v. 2.16; ivar v. 0.1; medaka v. 1.0.1; guppy v. 4.2.2 ; Coverage :: &gt;50 ; Sequencing Technology :: Oxford Nanopore ; ##Assembly-Data-END##</GBSeq_comment>
+    <GBSeq_feature-table>
+      <GBFeature>
+        <GBFeature_key>source</GBFeature_key>
+        <GBFeature_location>1..1353</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>1353</GBInterval_to>
+            <GBInterval_accession>PP681419.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>organism</GBQualifier_name>
+            <GBQualifier_value>Lyssavirus rabies</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>mol_type</GBQualifier_name>
+            <GBQualifier_value>viral cRNA</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>isolate</GBQualifier_name>
+            <GBQualifier_value>7214-17</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>isolation_source</GBQualifier_name>
+            <GBQualifier_value>brain</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>host</GBQualifier_name>
+            <GBQualifier_value>Eptesicus fuscus</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>taxon:11292</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>country</GBQualifier_name>
+            <GBQualifier_value>USA: Cochise County, AZ</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>collection_date</GBQualifier_name>
+            <GBQualifier_value>02-Aug-2017</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>note</GBQualifier_name>
+            <GBQualifier_value>genotype: US Eptesicus fuscus W1 (EF-W1)</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>gene</GBFeature_key>
+        <GBFeature_location>1..1353</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>1353</GBInterval_to>
+            <GBInterval_accession>PP681419.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>gene</GBQualifier_name>
+            <GBQualifier_value>N</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>CDS</GBFeature_key>
+        <GBFeature_location>1..1353</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>1353</GBInterval_to>
+            <GBInterval_accession>PP681419.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>gene</GBQualifier_name>
+            <GBQualifier_value>N</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>codon_start</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>transl_table</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>product</GBQualifier_name>
+            <GBQualifier_value>nucleoprotein</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>protein_id</GBQualifier_name>
+            <GBQualifier_value>WZL58390.1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>translation</GBQualifier_name>
+            <GBQualifier_value>MDADKIVFKVNNKVVSLKPEIIVDQYEYKYPAIKDLKKPSITLGKAPDLNKAYKSVLSGMNAAKLDPDDVCSYLAAAMQFFEGACPDDWTSYGILIARRGDKITPNSLVDIRRTDVEGNWALTGGMELTRDPTVSEHASLVGLLLSLYRLSKISGQNTGNYKTNIADRIEQIFETAPFVKIVEHHTLMTTHKMCANWSTIPNFRFLAGTYDMFFSRIEHLYSAIRVGTVVTAYEDCSGLVSFTGFIKQINLTAREALLYFFHKNFEEEIRRMFEPGQETAVPHSYFIHFRSLGLSGKSPYSSNAVGHVFNLIHFVGCYMGQVRSLNATVIATCAPHEMSVLGGYLGEEFFGKGTFERRFFRDEKELQEYEAAESTKTEVALADDGTVNSDDEGYFSSETRSPEAVYTRIMMNGGRLKRSHIRRYVSVSSNHQARPNSFAEFLNKTYSNDS</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+    </GBSeq_feature-table>
+    <GBSeq_sequence>atggatgccgacaagattgtattcaaagtcaataataaggtggtctctctgaagcctgaaattattgtggaccaatatgagtacaagtacccggctatcaaagacttaaagaagcccagtataactttaggaaaagcccctgacttgaacaaagcatacaaatcagttttatctggcatgaatgcagccaagctcgaccctgatgatgtatgctcttatctagcagccgcaatgcagttctttgagggagcatgtcctgatgactggaccagctacggaatcctgatagcacggaggggagacaagatcaccccaaattctcttgtggacataagacgcaccgatgtggaagggaattgggctctaacaggaggtatggagttaacgagagatcccactgtttcggagcatgcatctttggttggtctcctcttgagtctgtataggttgagcaaaatatctggacagaacaccggcaattacaagacaaacatcgcagataggatagagcagattttcgagacagccccttttgtaaagatcgtagaacaccatactttgatgacaacccacaaaatgtgtgctaactggagtaccataccgaacttcagattcctagcagggacctatgacatgtttttctcccggattgaacatctatattcagcaattagagtaggcacagttgtcactgcttatgaggactgctcagggttggtgtcatttacagggtttataaagcaaataaatctcactgcgagagaagcactactatatttcttccacaagaactttgaagaagagataagaagaatgtttgagccggggcaagagactgcagttcctcactcctatttcatccatttccgttcgttgggcctgagcggaaaatctccgtactcatcaaatgcagttggtcatgtgttcaacctcattcactttgttggatgttatatgggtcaggtgagatctctgaatgcaacagtgattgccacatgtgccccacatgagatgtctgttcttgggggttatttgggggaggagttttttggaaaagggacttttgagagaagattcttcagggacgagaaagaacttcaggaatatgaggcagccgaatcaactaagactgaagtagccttggctgatgacggaaccgtcaattctgatgacgagggctacttctctagtgagaccaggagtccggaggcagtctacactcgaatcatgatgaatggaggtagactgaaaagatcacacataaggaggtatgtctcagtcagttccaatcatcaagctcgccccaactcattcgccgagtttttaaacaagacatactcgaatgattcataa</GBSeq_sequence>
+  </GBSeq>
