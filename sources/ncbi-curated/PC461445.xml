@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+
+    <GBSeq_locus>PC461445</GBSeq_locus>
+    <GBSeq_length>1572</GBSeq_length>
+    <GBSeq_strandedness>double</GBSeq_strandedness>
+    <GBSeq_moltype>DNA</GBSeq_moltype>
+    <GBSeq_topology>linear</GBSeq_topology>
+    <GBSeq_division>PAT</GBSeq_division>
+    <GBSeq_update-date>29-JAN-2025</GBSeq_update-date>
+    <GBSeq_create-date>29-JAN-2025</GBSeq_create-date>
+    <GBSeq_definition>JP 2022502012-A/3: chimeric flavivirus lyssavirus vaccines</GBSeq_definition>
+    <GBSeq_primary-accession>PC461445</GBSeq_primary-accession>
+    <GBSeq_accession-version>PC461445.1</GBSeq_accession-version>
+    <GBSeq_other-seqids>
+      <GBSeqid>dbj|PC461445.1|</GBSeqid>
+      <GBSeqid>pat|JP|2022502012|3</GBSeqid>
+      <GBSeqid>gi|2896593314</GBSeqid>
+    </GBSeq_other-seqids>
+    <GBSeq_keywords>
+      <GBKeyword>JP 2022502012-A/3</GBKeyword>
+    </GBSeq_keywords>
+    <GBSeq_source>Lyssavirus rabies</GBSeq_source>
+    <GBSeq_organism>Lyssavirus rabies</GBSeq_organism>
+    <GBSeq_taxonomy>Viruses; Riboviria; Orthornavirae; Negarnaviricota; Haploviricotina; Monjiviricetes; Mononegavirales; Rhabdoviridae; Alpharhabdovirinae; Lyssavirus</GBSeq_taxonomy>
+    <GBSeq_references>
+      <GBReference>
+        <GBReference_reference>1</GBReference_reference>
+        <GBReference_position>1..1572</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Dallmeier,K.</GBAuthor>
+          <GBAuthor>Neyts,J.</GBAuthor>
+          <GBAuthor>Sanchez,L.</GBAuthor>
+          <GBAuthor>Mishra,N.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>chimeric flavivirus lyssavirus vaccines</GBReference_title>
+        <GBReference_journal>JP2022502012-A 3 11-JAN-2022 Katholieke Universiteit Leuven</GBReference_journal>
+      </GBReference>
+    </GBSeq_references>
+    <GBSeq_comment>OS Rabies virus~PN JP 2022502012-A/3~PD 11-JAN-2022~PF 06-SEP-2019 JP 2021512782~PR 07-SEP-2018 GB 1814563.1~PA Katholieke Universiteit Leuven~PI kai dallmeier,johan neyts,lorena sanchez,niraj mishra~PT 'chimeric flavivirus lyssavirus vaccines'~PS N16~CC~FH Key Location/Qualifiers~FT CDS (1)..(1572).</GBSeq_comment>
+    <GBSeq_feature-table>
+      <GBFeature>
+        <GBFeature_key>source</GBFeature_key>
+        <GBFeature_location>1..1572</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>1572</GBInterval_to>
+            <GBInterval_accession>PC461445.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>organism</GBQualifier_name>
+            <GBQualifier_value>Lyssavirus rabies</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>mol_type</GBQualifier_name>
+            <GBQualifier_value>unassigned DNA</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>taxon:11292</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+    </GBSeq_feature-table>
+    <GBSeq_sequence>atggtccctcaagcgctgcttttcgttcccctccttgtctttccactttgttttggaaaatttccaatatacacaattcccgacaaacttggaccctggagtccgatagacattcaccatttgtcttgccctaataaccttgtggttgaggacgaggggtgtactaacttgagtgggttcagttatatggaacttaaggtggggtatatattggctattaaaatgaacgggttcacatgcacaggtgttgtcacggaggcagagacctatacaaactttgttgggtacgtaactactacgttcaagaggaaacattttcgcccgactcctgatgcttgtcgcgcggcctataactggaaaatggccggggacccacggtacgaggagagcctccacaatccatatcccgactaccggtggctccgcacagtaaagacgactaaggaatctctggttataatatccccctcagtcgccgacctcgatccatatgatcggtcacttcatagtcgcgtatttccatccggtaaatgtagtggggtagccgtcagtagcacgtactgttccactaatcacgattacactatttggatgccggaaaacccgcggcttgggatgagttgcgatattttcacgaactctcggggaaagcgcgcaagtaagggttctgagacctgtggtttcgtggatgaacgaggtctctacaagtcactcaagggtgcctgcaagcttaagctttgtggagtactgggactcaggctgatggacggcacatgggtggctatgcaaacgtcaaatgaaaccaagtggtgtccgccagatcaactcgtaaatcttcacgattttcgcagtgacgagattgaacatcttgtagtcgaagaactcgttagaaagagggaagaatgtctcgacgcactcgaatctatcatgactactaaatctgtctcatttcgacgcctcagtcacctgagaaaactcgtgccaggattcggcaaagcttatactatcttcaacaagacgttgatggaagcggacgctcattacaaatcagtaagaacttggaatgaaattctgccatccaagggctgccttcgcgtaggagggcgatgccatcctcatgtaaatggggtcttctttaacgggataatcttgggacccgacggcaacgtacttataccagagatgcagagtagtctcctccaacagcacatggagttgttggaatccagcgtgatccctctcgttcaccccttggctgatccgagcactgtgttcaaagatggagacgaggcggaggatttcgtcgaagttcacctcccggatgtccataatcaagtttctggagtcgacctcggattgccaaattgggggaagtatgttcttctgtctgcgggagcgctcaccgcgctgatgttgatcattttcctcatgacttgctgtagaagggtgaatagatccgaacctactcaacacaaccttcgaggcacaggtcgagaagtatccgtcacacctcaatctggcaagattatctcaagttgggagtcccataagtcaggtggtgagacccggctg</GBSeq_sequence>
+  </GBSeq>
